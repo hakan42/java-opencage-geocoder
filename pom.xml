@@ -4,7 +4,7 @@
 
     <groupId>com.tandogan.osm</groupId>
     <artifactId>opencagedata-geocoder</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
 
     <inceptionYear>2014</inceptionYear>
@@ -63,7 +63,7 @@
         <url>https://github.com/${project_owner}/${project_fixed_name}</url>
         <connection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</connection>
         <developerConnection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</developerConnection>
-      <tag>opencagedata-geocoder-0.0.1</tag>
+      <tag>opencagedata-geocoder-0.0.2</tag>
   </scm>
 
     <issueManagement>
