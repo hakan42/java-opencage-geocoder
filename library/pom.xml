@@ -12,6 +12,8 @@
     <artifactId>opencagedata-geocoder-library</artifactId>
     <packaging>jar</packaging>
 
+    <name>${project.artifactId}</name>
+
     <properties>
     </properties>
 
