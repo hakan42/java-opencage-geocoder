@@ -62,9 +62,9 @@
     <scm>
         <url>https://github.com/${project_owner}/${project_fixed_name}</url>
         <connection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</connection>
-        <developerConnection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</developerConnection>
-      <tag>opencagedata-geocoder-0.0.1</tag>
-  </scm>
+        <developerConnection>scm:git:git@github.com:${project_owner}/${project_fixed_name}.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <issueManagement>
         <system>Git</system>
@@ -303,7 +303,6 @@
                         <useReleaseProfile>false</useReleaseProfile>
                         <releaseProfiles>release</releaseProfiles>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <pushChanges>false</pushChanges>
                     </configuration>
                 </plugin>
 
