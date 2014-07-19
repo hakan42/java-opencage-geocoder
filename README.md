@@ -1,7 +1,5 @@
 # OpenCage Geocoder
 
-A Java client library for OpenCage geocoding service
-
 A Java client client for the [OpenCage Data](http://www.opencagedata.com/)
 geocoder API.
 
