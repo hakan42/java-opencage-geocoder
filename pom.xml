@@ -1,16 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tandogan.osm</groupId>
     <artifactId>opencagedata-geocoder</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
 
     <inceptionYear>2014</inceptionYear>
     <url>http://${project_owner}.github.com/${project_fixed_name}/</url>
-    <description></description>
+    <description />
 
     <modules>
         <module>library</module>
@@ -64,7 +63,8 @@
         <url>https://github.com/${project_owner}/${project_fixed_name}</url>
         <connection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</connection>
         <developerConnection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</developerConnection>
-    </scm>
+      <tag>opencagedata-geocoder-0.0.1</tag>
+  </scm>
 
     <issueManagement>
         <system>Git</system>
