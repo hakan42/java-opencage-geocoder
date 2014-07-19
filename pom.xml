@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <inceptionYear>2014</inceptionYear>
-    <url>http://hakan42.github.com/java-opencage-geocoder/</url>
+    <url>http://hakan42.github.com/${project_fixed_name}/</url>
     <description></description>
 
     <modules>
@@ -19,6 +19,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Name to be used everywhere we don't want maven artifact Id -->
+        <project_fixed_name>java-opencage-geocoder</project_fixed_name>
 
         <!-- Maven plugin versions -->
         <plugin.gmaven-plugin.version>1.5</plugin.gmaven-plugin.version>
@@ -53,19 +56,19 @@
 
     <!-- variables in scm urls make gh-pages site uploads fail -->
     <scm>
-        <url>https://github.com/hakan42/java-opencage-geocoder</url>
-        <connection>scm:git:https://github.com/hakan42/java-opencage-geocoder.git</connection>
-        <developerConnection>scm:git:https://github.com/hakan42/java-opencage-geocoder.git</developerConnection>
+        <url>https://github.com/hakan42/${project_fixed_name}</url>
+        <connection>scm:git:https://github.com/hakan42/${project_fixed_name}.git</connection>
+        <developerConnection>scm:git:https://github.com/hakan42/${project_fixed_name}.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>Git</system>
-        <url>https://github.com/hakan42/${project.artifactId}/issues</url>
+        <url>https://github.com/hakan42/${project_fixed_name}/issues</url>
     </issueManagement>
 
     <ciManagement>
         <system>Jenkins</system>
-        <url>https://tandogan.ci.cloudbees.com/job/${project.artifactId}/</url>
+        <url>https://tandogan.ci.cloudbees.com/job/${project_fixed_name}/</url>
     </ciManagement>
 
     <distributionManagement>
