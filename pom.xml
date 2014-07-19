@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <inceptionYear>2014</inceptionYear>
-    <url>http://hakan42.github.com/${project_fixed_name}/</url>
+    <url>http://${project_owner}.github.com/${project_fixed_name}/</url>
     <description></description>
 
     <modules>
@@ -21,6 +21,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Name to be used everywhere we don't want maven artifact Id -->
+        <project_owner>hakan42</project_owner>
         <project_fixed_name>java-opencage-geocoder</project_fixed_name>
 
         <!-- Maven plugin versions -->
@@ -56,14 +57,14 @@
 
     <!-- variables in scm urls make gh-pages site uploads fail -->
     <scm>
-        <url>https://github.com/hakan42/${project_fixed_name}</url>
-        <connection>scm:git:https://github.com/hakan42/${project_fixed_name}.git</connection>
-        <developerConnection>scm:git:https://github.com/hakan42/${project_fixed_name}.git</developerConnection>
+        <url>https://github.com/${project_owner}/${project_fixed_name}</url>
+        <connection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</connection>
+        <developerConnection>scm:git:https://github.com/${project_owner}/${project_fixed_name}.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>Git</system>
-        <url>https://github.com/hakan42/${project_fixed_name}/issues</url>
+        <url>https://github.com/${project_owner}/${project_fixed_name}/issues</url>
     </issueManagement>
 
     <ciManagement>
