@@ -268,26 +268,11 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <configuration>
-                        <archive>
-                            <manifest>
-                                <mainClass>${spring-boot.start.class}</mainClass>
-                            </manifest>
-                        </archive>
-                    </configuration>
                 </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-                    <configuration>
-                        <failOnMissingWebXml>false</failOnMissingWebXml>
-                        <archive>
-                            <manifest>
-                                <mainClass>${spring-boot.start.class}</mainClass>
-                            </manifest>
-                        </archive>
-                    </configuration>
                 </plugin>
 
                 <plugin>
