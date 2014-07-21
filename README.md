@@ -12,4 +12,4 @@ geocoder API.
 
 
 ## Maven site(s)
-* [SNAPSHOT](http://hakan42.github.io/java-opencage-geocoder/site/0.0.1-SNAPSHOT/)
+* [SNAPSHOT](http://hakan42.github.io/java-opencage-geocoder/site/0.1.0-SNAPSHOT/)
