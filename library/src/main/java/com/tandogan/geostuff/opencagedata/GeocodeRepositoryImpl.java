@@ -1,6 +1,7 @@
 package com.tandogan.geostuff.opencagedata;
 
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -14,8 +15,10 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
     private final static String QUERY = "q";
 
+    @Value("${API_KEY}")
     private String apiKey;
 
+    @Value("${URL_BASE}")
     private String urlBase;
 
     private RestOperations template;
