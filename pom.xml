@@ -47,6 +47,8 @@
         <spring-boot.version>1.1.4.RELEASE</spring-boot.version>
 
         <jackson.version>2.3.4</jackson.version>
+        <commons-digester.version></commons-digester.version>
+        <commons-io.version>2.4</commons-io.version>
         <commons-lang.version>3.3.2</commons-lang.version>
         <joda-time.version>2.3</joda-time.version>
 
@@ -235,13 +237,13 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-digester3</artifactId>
-                <version>3.2</version>
+                <version>${commons-digester.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.sf.opencsv</groupId>
-                <artifactId>opencsv</artifactId>
-                <version>2.3</version>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
             </dependency>
 
             <!-- Communicate with the database... -->
