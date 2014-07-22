@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import static org.junit.Assert.assertNotNull;
 
-public class DeserializationTest
+public class JsonDeserializationTest
 {
-    private static final Logger LOGGER = LoggerFactory.getLogger(DeserializationTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(JsonDeserializationTest.class);
 
     private ObjectMapper mapper;
 
