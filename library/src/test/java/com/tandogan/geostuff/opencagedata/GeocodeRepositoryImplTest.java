@@ -1,6 +1,6 @@
 package com.tandogan.geostuff.opencagedata;
 
-import com.tandogan.geostuff.opencagedata.entity.EntityComponentScanMarker;
+import com.tandogan.geostuff.opencagedata.entity.GeocodeEntityComponentScanMarker;
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,7 +25,7 @@ import static org.junit.Assert.assertNull;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
-@ComponentScan(basePackageClasses = {EntityComponentScanMarker.class, RepositoryComponentScanMarker.class})
+@ComponentScan(basePackageClasses = {GeocodeEntityComponentScanMarker.class, GeocodeRepositoryComponentScanMarker.class})
 @PropertySources({
         @PropertySource("classpath:/opencagedata-default.properties"),
         @PropertySource(value = "file:${HOME}/.config/opencagedata", ignoreResourceNotFound = true)
