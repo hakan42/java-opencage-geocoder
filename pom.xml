@@ -58,6 +58,7 @@
         <!-- Testing -->
         <junit.version>4.11</junit.version>
         <mockito.version>1.9.0</mockito.version>
+        <springockito.version>1.0.9</springockito.version>
 
     </properties>
 
@@ -262,6 +263,13 @@
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
                 <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kubek2k</groupId>
+                <artifactId>springockito-annotations</artifactId>
+                <version>${springockito.version}</version>
                 <scope>test</scope>
             </dependency>
 
