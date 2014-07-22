@@ -12,7 +12,7 @@ import org.springframework.web.client.RestOperations;
 import static org.junit.Assert.assertNull;
 
 @ComponentScan(basePackageClasses = {EntityComponentScanMarker.class, RepositoryComponentScanMarker.class})
-public class GeocodeRepositoryTest
+public class GeocodeRepositoryImplTest
 {
     @Mock
     RestOperations restTemplate;
