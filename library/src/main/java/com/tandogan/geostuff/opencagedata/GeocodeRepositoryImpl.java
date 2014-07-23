@@ -56,7 +56,6 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .build()
                 .toUri();
 
-        GeocodeResponse result = template.getForObject(serviceUrl, GeocodeResponse.class);
-        return result;
+        return template.getForObject(serviceUrl, GeocodeResponse.class);
     }
 }
