@@ -11,9 +11,9 @@ import java.net.URI;
 @Repository
 public class GeocodeRepositoryImpl implements GeocodeRepository
 {
-    private final static String API_KEY = "key";
+    private static final String API_KEY = "key";
 
-    private final static String QUERY = "q";
+    private static final String QUERY = "q";
 
     @Value("${API_KEY}")
     private String apiKey;
