@@ -11,11 +11,23 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2485,
-        "reset": 1405814400
+        "remaining": 2494,
+        "reset": 1407196800
     },
     "results": [
         {
+            "annotations": {
+                "OSM": {
+                    "url": "http://www.openstreetmap.org/?mlat=48.13400&mlon=11.36573#map=17/48.13400/11.36573"
+                },
+                "timezone": {
+                    "name": "Europe/Berlin",
+                    "now_in_dst": 1,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "CEST"
+                }
+            },
             "bounds": {
                 "northeast": {
                     "lat": 48.1587694,
@@ -42,6 +54,18 @@
             }
         },
         {
+            "annotations": {
+                "OSM": {
+                    "url": "http://www.openstreetmap.org/?mlat=47.90668&mlon=12.11856#map=17/47.90668/12.11856"
+                },
+                "timezone": {
+                    "name": "Europe/Berlin",
+                    "now_in_dst": 1,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "CEST"
+                }
+            },
             "bounds": {
                 "northeast": {
                     "lat": 47.9067289,
@@ -76,8 +100,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Sat, 19 Jul 2014 08:30:09 GMT",
-        "created_unix": 1405758609
+        "created_http": "Mon, 04 Aug 2014 10:16:01 GMT",
+        "created_unix": 1407147361
     },
     "total_results": 2,
     "we_are_hiring": "http://lokku.com/#jobs"
