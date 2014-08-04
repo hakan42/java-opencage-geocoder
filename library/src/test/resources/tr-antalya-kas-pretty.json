@@ -1,0 +1,181 @@
+{
+    "licenses": [
+        {
+            "name": "CC-BY-SA",
+            "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+            "name": "ODbL",
+            "url": "http://opendatacommons.org/licenses/odbl/summary/"
+        }
+    ],
+    "rate": {
+        "limit": 2500,
+        "remaining": 2480,
+        "reset": 1405814400
+    },
+    "results": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 21.8367216,
+                    "lng": 80.0116862
+                },
+                "southwest": {
+                    "lat": 21.7832171,
+                    "lng": 79.9111279
+                }
+            },
+            "components": {
+                "country": "India",
+                "country_code": "IN",
+                "county": "B\u0101l\u0101gh\u0101t",
+                "river": "Kas",
+                "state": "Madhya Pradesh",
+                "state_district": "Balaghat"
+            },
+            "confidence": 7,
+            "formatted": "B\u0101l\u0101gh\u0101t, Balaghat, Madhya Pradesh, India, Kas",
+            "geometry": {
+                "lat": 21.8060729,
+                "lng": 79.9551641
+            }
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 21.8944015,
+                    "lng": 79.9111279
+                },
+                "southwest": {
+                    "lat": 21.8358385,
+                    "lng": 79.8760998
+                }
+            },
+            "components": {
+                "country": "India",
+                "country_code": "IN",
+                "county": "B\u0101l\u0101gh\u0101t",
+                "state": "Madhya Pradesh",
+                "state_district": "Balaghat",
+                "stream": "Kas"
+            },
+            "confidence": 7,
+            "formatted": "B\u0101l\u0101gh\u0101t, Balaghat, Madhya Pradesh, India, Kas",
+            "geometry": {
+                "lat": 21.8662397,
+                "lng": 79.8943519
+            }
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 36.6191853,
+                    "lng": 29.9195079
+                },
+                "southwest": {
+                    "lat": 36.1309438,
+                    "lng": 29.2620365
+                }
+            },
+            "components": {
+                "country": "Turkey",
+                "country_code": "TR",
+                "county": "Ka\u015f",
+                "state": "Antalya"
+            },
+            "confidence": 1,
+            "formatted": "Ka\u015f, Antalya, Turkey",
+            "geometry": {
+                "lat": 36.37509,
+                "lng": 29.6036697892474
+            }
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 36.2102109,
+                    "lng": 29.6497919
+                },
+                "southwest": {
+                    "lat": 36.1925815,
+                    "lng": 29.6207494
+                }
+            },
+            "components": {
+                "city": "Ka\u015f",
+                "country": "Turkey",
+                "country_code": "TR",
+                "county": "Ka\u015f",
+                "state": "Antalya"
+            },
+            "confidence": 7,
+            "formatted": "Ka\u015f, Ka\u015f, Antalya, Turkey",
+            "geometry": {
+                "lat": 36.2000389,
+                "lng": 29.6441508
+            }
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 59.644405,
+                    "lng": 89.77866
+                },
+                "southwest": {
+                    "lat": 59.587804,
+                    "lng": 89.689747
+                }
+            },
+            "components": {
+                "country": "Russian Federation",
+                "country_code": "RU",
+                "county": "Yeniseisk Rayon",
+                "river": "\u041a\u0430\u0441",
+                "state": "Krasnoyarsk Krai"
+            },
+            "confidence": 7,
+            "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
+            "geometry": {
+                "lat": 59.61263,
+                "lng": 89.735621
+            }
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 59.8323538,
+                    "lng": 90.2522186
+                },
+                "southwest": {
+                    "lat": 59.808473,
+                    "lng": 90.162181
+                }
+            },
+            "components": {
+                "country": "Russian Federation",
+                "country_code": "RU",
+                "county": "Yeniseisk Rayon",
+                "river": "\u041a\u0430\u0441",
+                "state": "Krasnoyarsk Krai"
+            },
+            "confidence": 7,
+            "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
+            "geometry": {
+                "lat": 59.826765,
+                "lng": 90.193113
+            }
+        }
+    ],
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "thanks": "For using an OpenCage Data API",
+    "timestamp": {
+        "created_http": "Sat, 19 Jul 2014 08:38:07 GMT",
+        "created_unix": 1405759087
+    },
+    "total_results": 6,
+    "we_are_hiring": "http://lokku.com/#jobs"
+}
