@@ -52,6 +52,16 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
         this.urlBase = urlBase;
     }
 
+    public RestOperations getTemplate()
+    {
+        return template;
+    }
+
+    public void setTemplate(RestOperations template)
+    {
+        this.template = template;
+    }
+
     public GeocodeResponse query(String query)
     {
         URI serviceUrl = UriComponentsBuilder.fromUriString(getUrlBase())
