@@ -23,6 +23,10 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
     private RestOperations template;
 
+    public GeocodeRepositoryImpl()
+    {
+    }
+
     public GeocodeRepositoryImpl(RestOperations template)
     {
         this.template = template;
