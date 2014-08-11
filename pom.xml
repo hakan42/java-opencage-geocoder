@@ -47,6 +47,9 @@
         <spring-boot.version>1.1.5.RELEASE</spring-boot.version>
 
         <jackson.version>2.4.1</jackson.version>
+        <jackson-core.version>2.4.1.1</jackson-core.version>
+        <jackson-databind.version>2.4.1.3</jackson-databind.version>
+
         <commons-digester.version>3.2</commons-digester.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-lang.version>3.3.2</commons-lang.version>
@@ -205,13 +208,13 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
-                <version>${jackson.version}.1</version>
+                <version>${jackson-core.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}.3</version>
+                <version>${jackson-databind.version}</version>
             </dependency>
 
             <!-- Logging -->
