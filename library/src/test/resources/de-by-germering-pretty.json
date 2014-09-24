@@ -11,8 +11,8 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2494,
-        "reset": 1407196800
+        "remaining": 2491,
+        "reset": 1411603200
     },
     "results": [
         {
@@ -20,12 +20,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=48.13400&mlon=11.36573#map=17/48.13400/11.36573"
                 },
+                "geohash": "u281fds2bswgpdtdwcuh",
                 "timezone": {
                     "name": "Europe/Berlin",
                     "now_in_dst": 1,
                     "offset_sec": 7200,
                     "offset_string": 200,
                     "short_name": "CEST"
+                },
+                "what3words": {
+                    "words": "tapes.bronzer.timidly"
                 }
             },
             "bounds": {
@@ -41,13 +45,13 @@
             "components": {
                 "city": "Germering",
                 "country": "Germany",
-                "country_code": "DE",
+                "country_code": "de",
                 "county": "Landkreis F\u00fcrstenfeldbruck",
                 "state": "Free State of Bavaria",
                 "state_district": "Upper Bavaria"
             },
             "confidence": 7,
-            "formatted": "Germering, Landkreis F\u00fcrstenfeldbruck, Upper Bavaria, Free State of Bavaria, Germany",
+            "formatted": "Germering, Germany",
             "geometry": {
                 "lat": 48.1340035,
                 "lng": 11.3657306
@@ -58,12 +62,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=47.90668&mlon=12.11856#map=17/47.90668/12.11856"
                 },
+                "geohash": "u288ec0kwujx008w18jn",
                 "timezone": {
                     "name": "Europe/Berlin",
                     "now_in_dst": 1,
                     "offset_sec": 7200,
                     "offset_string": 200,
                     "short_name": "CEST"
+                },
+                "what3words": {
+                    "words": "scarfs.slope.meteors"
                 }
             },
             "bounds": {
@@ -80,14 +88,14 @@
                 "bus_stop": "Germering",
                 "city": "Schechen",
                 "country": "Germany",
-                "country_code": "DE",
+                "country_code": "de",
                 "county": "Landkreis Rosenheim",
                 "postcode": 83135,
                 "state": "Free State of Bavaria",
                 "state_district": "Upper Bavaria"
             },
             "confidence": 10,
-            "formatted": "Germering, Schechen, Landkreis Rosenheim, 83135, Upper Bavaria, Free State of Bavaria, Germany",
+            "formatted": "83135 Schechen, Germany",
             "geometry": {
                 "lat": 47.9066789,
                 "lng": 12.1185603
@@ -100,8 +108,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Mon, 04 Aug 2014 10:16:01 GMT",
-        "created_unix": 1407147361
+        "created_http": "Wed, 24 Sep 2014 12:12:39 GMT",
+        "created_unix": 1411560759
     },
     "total_results": 2,
     "we_are_hiring": "http://lokku.com/#jobs"

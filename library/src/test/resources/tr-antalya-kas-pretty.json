@@ -11,8 +11,8 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2493,
-        "reset": 1407196800
+        "remaining": 2490,
+        "reset": 1411603200
     },
     "results": [
         {
@@ -20,12 +20,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=21.80607&mlon=79.95516#map=17/21.80607/79.95516"
                 },
+                "geohash": "tgbu53ttd6e7xe9134f7",
                 "timezone": {
                     "name": "Asia/Kolkata",
                     "now_in_dst": 0,
                     "offset_sec": 19800,
                     "offset_string": 530,
                     "short_name": "IST"
+                },
+                "what3words": {
+                    "words": "incision.carb.editing"
                 }
             },
             "bounds": {
@@ -58,12 +62,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=21.86624&mlon=79.89435#map=17/21.86624/79.89435"
                 },
+                "geohash": "tgbu6h9k16d8ectqn1m2",
                 "timezone": {
                     "name": "Asia/Kolkata",
                     "now_in_dst": 0,
                     "offset_sec": 19800,
                     "offset_string": 530,
                     "short_name": "IST"
+                },
+                "what3words": {
+                    "words": "flick.clotting.revolves"
                 }
             },
             "bounds": {
@@ -96,12 +104,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=36.37509&mlon=29.60367#map=17/36.37509/29.60367"
                 },
+                "geohash": "swmnctusr80pg3xre982",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "bursting.crimping.drunken"
                 }
             },
             "bounds": {
@@ -132,12 +144,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=36.20004&mlon=29.64415#map=17/36.20004/29.64415"
                 },
+                "geohash": "swmjfw40wb2gq40wm180",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "roundly.nasally.else"
                 }
             },
             "bounds": {
@@ -167,24 +183,28 @@
         {
             "annotations": {
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=59.61263&mlon=89.73562#map=17/59.61263/89.73562"
+                    "url": "http://www.openstreetmap.org/?mlat=59.30416&mlon=89.42682#map=17/59.30416/89.42682"
                 },
+                "geohash": "vfx96gyxgbwk602edxfr",
                 "timezone": {
                     "name": "Asia/Krasnoyarsk",
                     "now_in_dst": 0,
                     "offset_sec": 28800,
                     "offset_string": 800,
                     "short_name": "KRAT"
+                },
+                "what3words": {
+                    "words": "dearie.pretzel.spaceship"
                 }
             },
             "bounds": {
                 "northeast": {
-                    "lat": 59.644405,
-                    "lng": 89.77866
+                    "lat": 59.4552,
+                    "lng": 89.678558
                 },
                 "southwest": {
-                    "lat": 59.587804,
-                    "lng": 89.689747
+                    "lat": 59.2391278,
+                    "lng": 89.2737156
                 }
             },
             "components": {
@@ -194,34 +214,38 @@
                 "river": "\u041a\u0430\u0441",
                 "state": "Krasnoyarsk Krai"
             },
-            "confidence": 7,
+            "confidence": 4,
             "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
             "geometry": {
-                "lat": 59.61263,
-                "lng": 89.735621
+                "lat": 59.3041597,
+                "lng": 89.4268204
             }
         },
         {
             "annotations": {
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=59.82677&mlon=90.19311#map=17/59.82677/90.19311"
+                    "url": "http://www.openstreetmap.org/?mlat=59.83248&mlon=90.27855#map=17/59.83248/90.27855"
                 },
+                "geohash": "y48hqk4v6wnn8q2bg21m",
                 "timezone": {
                     "name": "Asia/Krasnoyarsk",
                     "now_in_dst": 0,
                     "offset_sec": 28800,
                     "offset_string": 800,
                     "short_name": "KRAT"
+                },
+                "what3words": {
+                    "words": "twin.jumbo.ingests"
                 }
             },
             "bounds": {
                 "northeast": {
-                    "lat": 59.8323538,
-                    "lng": 90.2522186
+                    "lat": 59.848275,
+                    "lng": 90.2985364
                 },
                 "southwest": {
-                    "lat": 59.808473,
-                    "lng": 90.162181
+                    "lat": 59.822621,
+                    "lng": 90.2522186
                 }
             },
             "components": {
@@ -234,8 +258,8 @@
             "confidence": 7,
             "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
             "geometry": {
-                "lat": 59.826765,
-                "lng": 90.193113
+                "lat": 59.8324775,
+                "lng": 90.2785501
             }
         }
     ],
@@ -245,8 +269,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Mon, 04 Aug 2014 10:16:02 GMT",
-        "created_unix": 1407147362
+        "created_http": "Wed, 24 Sep 2014 12:12:40 GMT",
+        "created_unix": 1411560760
     },
     "total_results": 6,
     "we_are_hiring": "http://lokku.com/#jobs"

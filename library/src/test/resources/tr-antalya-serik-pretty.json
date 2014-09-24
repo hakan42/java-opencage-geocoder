@@ -11,8 +11,8 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2492,
-        "reset": 1407196800
+        "remaining": 2489,
+        "reset": 1411603200
     },
     "results": [
         {
@@ -20,12 +20,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=36.91653&mlon=31.10112#map=17/36.91653/31.10112"
                 },
+                "geohash": "sww458rnkskr34nkx6k3",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "bachelor.cats.jokers"
                 }
             },
             "bounds": {
@@ -57,12 +61,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=37.10223&mlon=30.99846#map=17/37.10223/30.99846"
                 },
+                "geohash": "sww516k2hs4mjwttg0y3",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "contorted.mileage.tell"
                 }
             },
             "bounds": {
@@ -93,12 +101,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=38.07043&mlon=39.62705#map=17/38.07043/39.62705"
                 },
+                "geohash": "syu0tdx834ec3m92dfru",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "pitchman.newscaster.humongous"
                 }
             },
             "bounds": {
@@ -132,8 +144,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Mon, 04 Aug 2014 10:16:04 GMT",
-        "created_unix": 1407147364
+        "created_http": "Wed, 24 Sep 2014 12:12:40 GMT",
+        "created_unix": 1411560760
     },
     "total_results": 3,
     "we_are_hiring": "http://lokku.com/#jobs"

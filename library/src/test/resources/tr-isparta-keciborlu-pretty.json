@@ -11,8 +11,8 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2491,
-        "reset": 1407196800
+        "remaining": 2488,
+        "reset": 1411603200
     },
     "results": [
         {
@@ -20,12 +20,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=37.94488&mlon=30.30036#map=17/37.94488/30.30036"
                 },
+                "geohash": "swtxce8hcw29k3z698xm",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "bulletins.conquest.hundredths"
                 }
             },
             "bounds": {
@@ -57,12 +61,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=37.91308&mlon=30.26327#map=17/37.91308/30.26327"
                 },
+                "geohash": "swtx8tv59jxz5r3qt4jt",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "scented.shortish.bleach"
                 }
             },
             "bounds": {
@@ -93,12 +101,16 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=37.94773&mlon=30.30704#map=17/37.94773/30.30704"
                 },
+                "geohash": "swtxcshvt62t8t17m2r2",
                 "timezone": {
                     "name": "Europe/Istanbul",
                     "now_in_dst": 1,
                     "offset_sec": 10800,
                     "offset_string": 300,
                     "short_name": "EEST"
+                },
+                "what3words": {
+                    "words": "bookmakers.beige.willing"
                 }
             },
             "bounds": {
@@ -134,8 +146,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Mon, 04 Aug 2014 10:16:05 GMT",
-        "created_unix": 1407147365
+        "created_http": "Wed, 24 Sep 2014 12:12:41 GMT",
+        "created_unix": 1411560761
     },
     "total_results": 3,
     "we_are_hiring": "http://lokku.com/#jobs"
