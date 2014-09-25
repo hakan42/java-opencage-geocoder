@@ -11,8 +11,8 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2490,
-        "reset": 1411603200
+        "remaining": 2498,
+        "reset": 1411689600
     },
     "results": [
         {
@@ -20,6 +20,7 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=21.80607&mlon=79.95516#map=17/21.80607/79.95516"
                 },
+                "callingcode": 91,
                 "geohash": "tgbu53ttd6e7xe9134f7",
                 "timezone": {
                     "name": "Asia/Kolkata",
@@ -62,6 +63,7 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=21.86624&mlon=79.89435#map=17/21.86624/79.89435"
                 },
+                "callingcode": 91,
                 "geohash": "tgbu6h9k16d8ectqn1m2",
                 "timezone": {
                     "name": "Asia/Kolkata",
@@ -104,6 +106,7 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=36.37509&mlon=29.60367#map=17/36.37509/29.60367"
                 },
+                "callingcode": 90,
                 "geohash": "swmnctusr80pg3xre982",
                 "timezone": {
                     "name": "Europe/Istanbul",
@@ -144,6 +147,7 @@
                 "OSM": {
                     "url": "http://www.openstreetmap.org/?mlat=36.20004&mlon=29.64415#map=17/36.20004/29.64415"
                 },
+                "callingcode": 90,
                 "geohash": "swmjfw40wb2gq40wm180",
                 "timezone": {
                     "name": "Europe/Istanbul",
@@ -269,8 +273,8 @@
     },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Wed, 24 Sep 2014 12:12:40 GMT",
-        "created_unix": 1411560760
+        "created_http": "Thu, 25 Sep 2014 15:38:52 GMT",
+        "created_unix": 1411659532
     },
     "total_results": 6,
     "we_are_hiring": "http://lokku.com/#jobs"
