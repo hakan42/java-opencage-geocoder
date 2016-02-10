@@ -12,6 +12,7 @@ geocoder API.
 ## Status
 [![Dependency Status](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d/badge.png)](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d)
 [![Build Status](https://travis-ci.org/hakan42/osm-tools.svg?branch=master)](https://travis-ci.org/hakan42/osm-tools)
+[![Code Coverage](https://codecov.io/github/hakan42/java-opencage-geocoder/coverage.svg?branch=master)](https://codecov.io/github/hakan42/java-opencage-geocoder?branch=master)
 
 
 ## Usage
