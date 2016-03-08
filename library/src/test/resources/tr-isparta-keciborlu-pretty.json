@@ -1,4 +1,5 @@
 {
+    "documentation": "https://geocoder.opencagedata.com/api",
     "licenses": [
         {
             "name": "CC-BY-SA",
@@ -11,26 +12,51 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2496,
-        "reset": 1411689600
+        "remaining": 2488,
+        "reset": 1457481600
     },
     "results": [
         {
             "annotations": {
+                "DMS": {
+                    "lat": "37\u00b0 56' 41.56764'' N",
+                    "lng": "30\u00b0 18' 1.28952'' E"
+                },
+                "MGRS": "36STH6277903137",
+                "Maidenhead": "KM57dw66bs",
+                "Mercator": {
+                    "x": 3373020.446,
+                    "y": 4545364.998
+                },
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=37.94488&mlon=30.30036#map=17/37.94488/30.30036"
+                    "edit_url": "https://www.openstreetmap.org/edit?node=26482164#map=17/37.94488/30.30036",
+                    "url": "https://www.openstreetmap.org/?mlat=37.94488&mlon=30.30036#map=17/37.94488/30.30036"
                 },
                 "callingcode": 90,
                 "geohash": "swtxce8hcw29k3z698xm",
+                "sun": {
+                    "rise": {
+                        "apparent": 1457410800,
+                        "astronomical": 1457405580,
+                        "civil": 1457409240,
+                        "nautical": 1457407380
+                    },
+                    "set": {
+                        "apparent": 1457452800,
+                        "astronomical": 1457458080,
+                        "civil": 1457454360,
+                        "nautical": 1457456220
+                    }
+                },
                 "timezone": {
                     "name": "Europe/Istanbul",
-                    "now_in_dst": 1,
-                    "offset_sec": 10800,
-                    "offset_string": 300,
-                    "short_name": "EEST"
+                    "now_in_dst": 0,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "EET"
                 },
                 "what3words": {
-                    "words": "bulletins.conquest.hundredths"
+                    "words": "bulletins.conquest.conception"
                 }
             },
             "bounds": {
@@ -45,13 +71,13 @@
             },
             "components": {
                 "country": "Turkey",
-                "country_code": "TR",
+                "country_code": "tr",
                 "county": "Ke\u00e7iborlu",
                 "state": "Isparta",
                 "town": "Ke\u00e7iborlu"
             },
             "confidence": 7,
-            "formatted": "Ke\u00e7iborlu, Ke\u00e7iborlu, Isparta, Turkey",
+            "formatted": "Ke\u00e7iborlu, Turkey",
             "geometry": {
                 "lat": 37.9448799,
                 "lng": 30.3003582
@@ -59,58 +85,42 @@
         },
         {
             "annotations": {
+                "DMS": {
+                    "lat": "37\u00b0 56' 51.84420'' N",
+                    "lng": "30\u00b0 18' 25.35156'' E"
+                },
+                "MGRS": "36STH6337603437",
+                "Maidenhead": "KM57dw67uk",
+                "Mercator": {
+                    "x": 3373764.494,
+                    "y": 4545766.28
+                },
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=37.91308&mlon=30.26327#map=17/37.91308/30.26327"
-                },
-                "callingcode": 90,
-                "geohash": "swtx8tv59jxz5r3qt4jt",
-                "timezone": {
-                    "name": "Europe/Istanbul",
-                    "now_in_dst": 1,
-                    "offset_sec": 10800,
-                    "offset_string": 300,
-                    "short_name": "EEST"
-                },
-                "what3words": {
-                    "words": "scented.shortish.bleach"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 38.0461368,
-                    "lng": 30.3771753
-                },
-                "southwest": {
-                    "lat": 37.7841595,
-                    "lng": 30.0925532
-                }
-            },
-            "components": {
-                "country": "Turkey",
-                "country_code": "TR",
-                "county": "Ke\u00e7iborlu",
-                "state": "Isparta"
-            },
-            "confidence": 4,
-            "formatted": "Ke\u00e7iborlu, Isparta, Turkey",
-            "geometry": {
-                "lat": 37.9130766,
-                "lng": 30.2632675582869
-            }
-        },
-        {
-            "annotations": {
-                "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=37.94773&mlon=30.30704#map=17/37.94773/30.30704"
+                    "edit_url": "https://www.openstreetmap.org/edit?node=2654287366#map=17/37.94773/30.30704",
+                    "url": "https://www.openstreetmap.org/?mlat=37.94773&mlon=30.30704#map=17/37.94773/30.30704"
                 },
                 "callingcode": 90,
                 "geohash": "swtxcshvt62t8t17m2r2",
+                "sun": {
+                    "rise": {
+                        "apparent": 1457410800,
+                        "astronomical": 1457405580,
+                        "civil": 1457409240,
+                        "nautical": 1457407380
+                    },
+                    "set": {
+                        "apparent": 1457452800,
+                        "astronomical": 1457458080,
+                        "civil": 1457454360,
+                        "nautical": 1457456220
+                    }
+                },
                 "timezone": {
                     "name": "Europe/Istanbul",
-                    "now_in_dst": 1,
-                    "offset_sec": 10800,
-                    "offset_string": 300,
-                    "short_name": "EEST"
+                    "now_in_dst": 0,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "EET"
                 },
                 "what3words": {
                     "words": "bookmakers.beige.willing"
@@ -128,7 +138,7 @@
             },
             "components": {
                 "country": "Turkey",
-                "country_code": "TR",
+                "country_code": "tr",
                 "county": "Ke\u00e7iborlu",
                 "road": "Denizli-Afyon yolu",
                 "state": "Isparta",
@@ -136,7 +146,7 @@
                 "town": "Ke\u00e7iborlu"
             },
             "confidence": 8,
-            "formatted": "Ke\u00e7iborlu, Denizli-Afyon yolu, Ke\u00e7iborlu, Ke\u00e7iborlu, Isparta, Turkey",
+            "formatted": "Ke\u00e7iborlu, Denizli-Afyon yolu, Turkey",
             "geometry": {
                 "lat": 37.9477345,
                 "lng": 30.3070421
@@ -147,11 +157,14 @@
         "code": 200,
         "message": "OK"
     },
+    "stay_informed": {
+        "blog": "http://blog.opencagedata.com",
+        "twitter": "https://twitter.com/opencagedata"
+    },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Thu, 25 Sep 2014 15:38:54 GMT",
-        "created_unix": 1411659534
+        "created_http": "Tue, 08 Mar 2016 19:36:33 GMT",
+        "created_unix": 1457465793
     },
-    "total_results": 3,
-    "we_are_hiring": "http://lokku.com/#jobs"
+    "total_results": 2
 }

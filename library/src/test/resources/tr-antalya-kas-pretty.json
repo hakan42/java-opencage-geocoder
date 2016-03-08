@@ -1,4 +1,5 @@
 {
+    "documentation": "https://geocoder.opencagedata.com/api",
     "licenses": [
         {
             "name": "CC-BY-SA",
@@ -11,112 +12,118 @@
     ],
     "rate": {
         "limit": 2500,
-        "remaining": 2498,
-        "reset": 1411689600
+        "remaining": 2490,
+        "reset": 1457481600
     },
     "results": [
         {
             "annotations": {
-                "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=21.80607&mlon=79.95516#map=17/21.80607/79.95516"
+                "DMS": {
+                    "lat": "36\u00b0 11' 57.75072'' N",
+                    "lng": "29\u00b0 38' 28.81140'' E"
                 },
-                "callingcode": 91,
-                "geohash": "tgbu53ttd6e7xe9134f7",
+                "MGRS": "35SQA3748209296",
+                "Maidenhead": "KM46te67xu",
+                "Mercator": {
+                    "x": 3299658.486,
+                    "y": 4302853.118
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?node=3279111811#map=17/36.19938/29.64134",
+                    "url": "https://www.openstreetmap.org/?mlat=36.19938&mlon=29.64134#map=17/36.19938/29.64134"
+                },
+                "callingcode": 90,
+                "geohash": "swmjftbhthwknnnwefce",
+                "sun": {
+                    "rise": {
+                        "apparent": 1457410920,
+                        "astronomical": 1457405760,
+                        "civil": 1457409360,
+                        "nautical": 1457407560
+                    },
+                    "set": {
+                        "apparent": 1457453040,
+                        "astronomical": 1457458140,
+                        "civil": 1457454540,
+                        "nautical": 1457456340
+                    }
+                },
                 "timezone": {
-                    "name": "Asia/Kolkata",
+                    "name": "Europe/Istanbul",
                     "now_in_dst": 0,
-                    "offset_sec": 19800,
-                    "offset_string": 530,
-                    "short_name": "IST"
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "EET"
                 },
                 "what3words": {
-                    "words": "incision.carb.editing"
+                    "words": "pampered.windblown.cherishing"
                 }
             },
             "bounds": {
                 "northeast": {
-                    "lat": 21.8367216,
-                    "lng": 80.0116862
+                    "lat": 36.2393752,
+                    "lng": 29.6813365
                 },
                 "southwest": {
-                    "lat": 21.7832171,
-                    "lng": 79.9111279
+                    "lat": 36.1593752,
+                    "lng": 29.6013365
                 }
             },
             "components": {
-                "country": "India",
-                "country_code": "IN",
-                "county": "B\u0101l\u0101gh\u0101t",
-                "river": "Kas",
-                "state": "Madhya Pradesh",
-                "state_district": "Balaghat"
+                "country": "Turkey",
+                "country_code": "tr",
+                "county": "Ka\u015f",
+                "state": "Antalya",
+                "town": "Kas"
             },
             "confidence": 7,
-            "formatted": "B\u0101l\u0101gh\u0101t, Balaghat, Madhya Pradesh, India, Kas",
+            "formatted": "Kas, Ka\u015f, Turkey",
             "geometry": {
-                "lat": 21.8060729,
-                "lng": 79.9551641
+                "lat": 36.1993752,
+                "lng": 29.6413365
             }
         },
         {
             "annotations": {
+                "DMS": {
+                    "lat": "36\u00b0 22' 30.32400'' N",
+                    "lng": "29\u00b0 36' 13.21124'' E"
+                },
+                "MGRS": "35SQA3357028701",
+                "Maidenhead": "KM46tj20ka",
+                "Mercator": {
+                    "x": 3295465.447,
+                    "y": 4327014.116
+                },
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=21.86624&mlon=79.89435#map=17/21.86624/79.89435"
-                },
-                "callingcode": 91,
-                "geohash": "tgbu6h9k16d8ectqn1m2",
-                "timezone": {
-                    "name": "Asia/Kolkata",
-                    "now_in_dst": 0,
-                    "offset_sec": 19800,
-                    "offset_string": 530,
-                    "short_name": "IST"
-                },
-                "what3words": {
-                    "words": "flick.clotting.revolves"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 21.8944015,
-                    "lng": 79.9111279
-                },
-                "southwest": {
-                    "lat": 21.8358385,
-                    "lng": 79.8760998
-                }
-            },
-            "components": {
-                "country": "India",
-                "country_code": "IN",
-                "county": "B\u0101l\u0101gh\u0101t",
-                "state": "Madhya Pradesh",
-                "state_district": "Balaghat",
-                "stream": "Kas"
-            },
-            "confidence": 7,
-            "formatted": "B\u0101l\u0101gh\u0101t, Balaghat, Madhya Pradesh, India, Kas",
-            "geometry": {
-                "lat": 21.8662397,
-                "lng": 79.8943519
-            }
-        },
-        {
-            "annotations": {
-                "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=36.37509&mlon=29.60367#map=17/36.37509/29.60367"
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=1727265#map=17/36.37509/29.60367",
+                    "url": "https://www.openstreetmap.org/?mlat=36.37509&mlon=29.60367#map=17/36.37509/29.60367"
                 },
                 "callingcode": 90,
                 "geohash": "swmnctusr80pg3xre982",
+                "sun": {
+                    "rise": {
+                        "apparent": 1457410920,
+                        "astronomical": 1457405760,
+                        "civil": 1457409360,
+                        "nautical": 1457407560
+                    },
+                    "set": {
+                        "apparent": 1457453040,
+                        "astronomical": 1457458140,
+                        "civil": 1457454540,
+                        "nautical": 1457456340
+                    }
+                },
                 "timezone": {
                     "name": "Europe/Istanbul",
-                    "now_in_dst": 1,
-                    "offset_sec": 10800,
-                    "offset_string": 300,
-                    "short_name": "EEST"
+                    "now_in_dst": 0,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "EET"
                 },
                 "what3words": {
-                    "words": "bursting.crimping.drunken"
+                    "words": "bursting.crimping.sidelines"
                 }
             },
             "bounds": {
@@ -131,12 +138,12 @@
             },
             "components": {
                 "country": "Turkey",
-                "country_code": "TR",
+                "country_code": "tr",
                 "county": "Ka\u015f",
                 "state": "Antalya"
             },
             "confidence": 1,
-            "formatted": "Ka\u015f, Antalya, Turkey",
+            "formatted": "Ka\u015f, Turkey",
             "geometry": {
                 "lat": 36.37509,
                 "lng": 29.6036697892474
@@ -144,126 +151,72 @@
         },
         {
             "annotations": {
+                "DMS": {
+                    "lat": "36\u00b0 12' 2.07828'' N",
+                    "lng": "29\u00b0 39' 0.00144'' E"
+                },
+                "MGRS": "35SQA3825709451",
+                "Maidenhead": "KM46te88ad",
+                "Mercator": {
+                    "x": 3300622.947,
+                    "y": 4303018.222
+                },
                 "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=36.20004&mlon=29.64415#map=17/36.20004/29.64415"
+                    "edit_url": "https://www.openstreetmap.org/edit?node=2071263545#map=17/36.20058/29.65000",
+                    "url": "https://www.openstreetmap.org/?mlat=36.20058&mlon=29.65000#map=17/36.20058/29.65000"
                 },
                 "callingcode": 90,
-                "geohash": "swmjfw40wb2gq40wm180",
+                "geohash": "swmjfwn7xhdwyzvpxpv9",
+                "sun": {
+                    "rise": {
+                        "apparent": 1457410920,
+                        "astronomical": 1457405760,
+                        "civil": 1457409360,
+                        "nautical": 1457407560
+                    },
+                    "set": {
+                        "apparent": 1457453040,
+                        "astronomical": 1457458140,
+                        "civil": 1457454540,
+                        "nautical": 1457456340
+                    }
+                },
                 "timezone": {
                     "name": "Europe/Istanbul",
-                    "now_in_dst": 1,
-                    "offset_sec": 10800,
-                    "offset_string": 300,
-                    "short_name": "EEST"
+                    "now_in_dst": 0,
+                    "offset_sec": 7200,
+                    "offset_string": 200,
+                    "short_name": "EET"
                 },
                 "what3words": {
-                    "words": "roundly.nasally.else"
+                    "words": "freezing.pitied.felicitous"
                 }
             },
             "bounds": {
                 "northeast": {
-                    "lat": 36.2102109,
-                    "lng": 29.6497919
+                    "lat": 36.2006273,
+                    "lng": 29.6500504
                 },
                 "southwest": {
-                    "lat": 36.1925815,
-                    "lng": 29.6207494
+                    "lat": 36.2005273,
+                    "lng": 29.6499504
                 }
             },
             "components": {
-                "city": "Ka\u015f",
+                "address29": "Ka\u015f",
                 "country": "Turkey",
-                "country_code": "TR",
+                "country_code": "tr",
                 "county": "Ka\u015f",
-                "state": "Antalya"
+                "road": "D400",
+                "state": "Antalya",
+                "suburb": "\u00c7ukurba\u011f Yar\u0131madas\u0131",
+                "town": "Kas"
             },
-            "confidence": 7,
-            "formatted": "Ka\u015f, Ka\u015f, Antalya, Turkey",
+            "confidence": 10,
+            "formatted": "Ka\u015f, D400, Kas, Turkey",
             "geometry": {
-                "lat": 36.2000389,
-                "lng": 29.6441508
-            }
-        },
-        {
-            "annotations": {
-                "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=59.30416&mlon=89.42682#map=17/59.30416/89.42682"
-                },
-                "geohash": "vfx96gyxgbwk602edxfr",
-                "timezone": {
-                    "name": "Asia/Krasnoyarsk",
-                    "now_in_dst": 0,
-                    "offset_sec": 28800,
-                    "offset_string": 800,
-                    "short_name": "KRAT"
-                },
-                "what3words": {
-                    "words": "dearie.pretzel.spaceship"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 59.4552,
-                    "lng": 89.678558
-                },
-                "southwest": {
-                    "lat": 59.2391278,
-                    "lng": 89.2737156
-                }
-            },
-            "components": {
-                "country": "Russian Federation",
-                "country_code": "RU",
-                "county": "Yeniseisk Rayon",
-                "river": "\u041a\u0430\u0441",
-                "state": "Krasnoyarsk Krai"
-            },
-            "confidence": 4,
-            "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
-            "geometry": {
-                "lat": 59.3041597,
-                "lng": 89.4268204
-            }
-        },
-        {
-            "annotations": {
-                "OSM": {
-                    "url": "http://www.openstreetmap.org/?mlat=59.83248&mlon=90.27855#map=17/59.83248/90.27855"
-                },
-                "geohash": "y48hqk4v6wnn8q2bg21m",
-                "timezone": {
-                    "name": "Asia/Krasnoyarsk",
-                    "now_in_dst": 0,
-                    "offset_sec": 28800,
-                    "offset_string": 800,
-                    "short_name": "KRAT"
-                },
-                "what3words": {
-                    "words": "twin.jumbo.ingests"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 59.848275,
-                    "lng": 90.2985364
-                },
-                "southwest": {
-                    "lat": 59.822621,
-                    "lng": 90.2522186
-                }
-            },
-            "components": {
-                "country": "Russian Federation",
-                "country_code": "RU",
-                "county": "Yeniseisk Rayon",
-                "river": "\u041a\u0430\u0441",
-                "state": "Krasnoyarsk Krai"
-            },
-            "confidence": 7,
-            "formatted": "Yeniseisk Rayon, Krasnoyarsk Krai, Russian Federation, \u041a\u0430\u0441",
-            "geometry": {
-                "lat": 59.8324775,
-                "lng": 90.2785501
+                "lat": 36.2005773,
+                "lng": 29.6500004
             }
         }
     ],
@@ -271,11 +224,14 @@
         "code": 200,
         "message": "OK"
     },
+    "stay_informed": {
+        "blog": "http://blog.opencagedata.com",
+        "twitter": "https://twitter.com/opencagedata"
+    },
     "thanks": "For using an OpenCage Data API",
     "timestamp": {
-        "created_http": "Thu, 25 Sep 2014 15:38:52 GMT",
-        "created_unix": 1411659532
+        "created_http": "Tue, 08 Mar 2016 19:36:31 GMT",
+        "created_unix": 1457465791
     },
-    "total_results": 6,
-    "we_are_hiring": "http://lokku.com/#jobs"
+    "total_results": 3
 }

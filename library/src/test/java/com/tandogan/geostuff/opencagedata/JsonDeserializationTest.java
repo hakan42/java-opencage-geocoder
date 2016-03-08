@@ -57,10 +57,10 @@ public class JsonDeserializationTest
         assertNotNull(response);
         assertNotEquals(0, response.getResults().size());
 
-        OpencageResult result = response.getResults().get(3);
+        OpencageResult result = response.getResults().get(0);
         assertNotNull(result);
         assertNotEquals(0, result.getConfidence());
-        assertEquals("Kaş", result.getComponents().getCity());
+        assertEquals("Kaş", result.getComponents().getCounty());
         assertEquals(36.200, result.getGeometry().getLatitude(), LATLON_DELTA);
         assertEquals(29.603, result.getGeometry().getLongitude(), LATLON_DELTA);
     }
