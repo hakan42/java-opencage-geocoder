@@ -3,6 +3,9 @@
 # Various scripts
 retest.sh
 
+# Reformatted test data
+library/src/test/resources/*-pretty.json
+
 # Package Files
 *.jar
 *.war
