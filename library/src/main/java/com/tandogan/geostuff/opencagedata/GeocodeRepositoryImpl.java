@@ -1,6 +1,8 @@
 package com.tandogan.geostuff.opencagedata;
 
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
+import com.tandogan.geostuff.opencagedata.entity.OpencageRate;
+import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -27,6 +29,10 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     private String urlBase;
 
     private RestOperations template;
+
+    private static final OpencageRate rate = new OpencageRate();
+
+    private static final DateTime reset = new DateTime().withMillis(0);
 
     public GeocodeRepositoryImpl()
     {
@@ -68,6 +74,21 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
         this.template = template;
     }
 
+    public int getLimit()
+    {
+        return rate.getLimit();
+    }
+
+    public int getRemaining()
+    {
+        return rate.getRemaining();
+    }
+
+    public DateTime getReset()
+    {
+        return reset;
+    }
+
     public GeocodeResponse query(String query)
     {
         URI serviceUrl = UriComponentsBuilder.fromUriString(getUrlBase())
@@ -80,7 +101,24 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
         LOGGER.debug("geocoding query: {}", serviceUrl.toString());
 
-        return template.getForObject(serviceUrl, GeocodeResponse.class);
+        GeocodeResponse result = template.getForObject(serviceUrl, GeocodeResponse.class);
+
+        if (result != null)
+        {
+            if (result.getRate() != null)
+            {
+                rate.setLimit(result.getRate().getLimit());
+                rate.setRemaining(result.getRate().getRemaining());
+                rate.setReset(result.getRate().getReset());
+
+                reset.withMillis((long) (result.getRate().getReset() * 1000));
+            }
+        }
+
+        LOGGER.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
+        LOGGER.debug("  limit will be reset at {}, now it is {}", reset, DateTime.now());
+
+        return result;
     }
 
     public GeocodeResponse reverse(double latitude, double longitude)
