@@ -1,6 +1,8 @@
 package com.tandogan.geostuff.opencagedata;
 
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestOperations;
@@ -11,6 +13,8 @@ import java.net.URI;
 @Repository
 public class GeocodeRepositoryImpl implements GeocodeRepository
 {
+    private final static Logger LOGGER = LoggerFactory.getLogger(GeocodeRepositoryImpl.class);
+
     private static final String API_KEY = "key";
 
     private static final String QUERY = "q";
@@ -69,6 +73,8 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .queryParam(QUERY, query)
                 .build()
                 .toUri();
+
+        LOGGER.debug("geocoding query: {}", serviceUrl.toString());
 
         return template.getForObject(serviceUrl, GeocodeResponse.class);
     }
