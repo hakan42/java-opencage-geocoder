@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestOperations;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
@@ -29,6 +30,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
     public GeocodeRepositoryImpl()
     {
+        this.template = new RestTemplate();
     }
 
     public GeocodeRepositoryImpl(RestOperations template)
@@ -74,8 +76,35 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .build()
                 .toUri();
 
+        LOGGER.debug("REST template is {}", template);
+
         LOGGER.debug("geocoding query: {}", serviceUrl.toString());
 
         return template.getForObject(serviceUrl, GeocodeResponse.class);
+    }
+
+    public GeocodeResponse reverse(double latitude, double longitude)
+    {
+        LOGGER.debug("reverse geocoding {}, {}", latitude, longitude);
+
+        String query = "";
+
+        if (latitude > 0)
+        {
+            query = query + "+";
+        }
+        query = query + latitude;
+
+        query = query + "-";
+
+        if (longitude > 0)
+        {
+            query = query + "+";
+        }
+        query = query + longitude;
+
+        LOGGER.info("query is '{}'", query);
+
+        return query(query);
     }
 }
