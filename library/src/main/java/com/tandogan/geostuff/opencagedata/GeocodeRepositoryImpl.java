@@ -127,18 +127,10 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
         String query = "";
 
-        if (latitude > 0)
-        {
-            query = query + "+";
-        }
         query = query + latitude;
 
-        query = query + "-";
+        query = query + "+";
 
-        if (longitude > 0)
-        {
-            query = query + "+";
-        }
         query = query + longitude;
 
         LOGGER.info("query is '{}'", query);
