@@ -111,7 +111,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 rate.setRemaining(result.getRate().getRemaining());
                 rate.setReset(result.getRate().getReset());
 
-                reset.withMillis((long) (result.getRate().getReset() * 1000));
+                reset.withMillis((long) (result.getRate().getReset()) * 1000L);
             }
         }
 
