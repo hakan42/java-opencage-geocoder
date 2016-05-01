@@ -6,12 +6,16 @@ import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
+
+import static org.springframework.http.HttpStatus.OK;
 
 @Repository
 public class GeocodeRepositoryImpl implements GeocodeRepository
@@ -101,18 +105,34 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
         LOGGER.debug("geocoding query: {}", serviceUrl.toString());
 
-        GeocodeResponse result = template.getForObject(serviceUrl, GeocodeResponse.class);
+        GeocodeResponse result = new GeocodeResponse();
+        ResponseEntity<GeocodeResponse> response = template.getForEntity(serviceUrl, GeocodeResponse.class);
 
-        if (result != null)
+        if (response != null)
         {
-            if (result.getRate() != null)
+            switch (response.getStatusCode())
             {
-                rate.setLimit(result.getRate().getLimit());
-                rate.setRemaining(result.getRate().getRemaining());
-                rate.setReset(result.getRate().getReset());
+                // TODO proper handling of quota excessions
+                case OK:
+                    result = response.getBody();
 
-                reset.withMillis((long) (result.getRate().getReset()) * 1000L);
+                    if (result != null)
+                    {
+                        if (result.getRate() != null)
+                        {
+                            rate.setLimit(result.getRate().getLimit());
+                            rate.setRemaining(result.getRate().getRemaining());
+                            rate.setReset(result.getRate().getReset());
+
+                            reset.withMillis((long) (result.getRate().getReset()) * 1000L);
+                        }
+                    }
+                    break;
+
+                default:
+                    break;
             }
+
         }
 
         LOGGER.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
