@@ -349,6 +349,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-dependency-plugin</artifactId>
+                    <version>${maven-dependency-plugin.version}</version>
                     <executions>
                         <execution>
                             <id>analyze</id>
@@ -356,6 +357,7 @@
                                 <goal>analyze-only</goal>
                             </goals>
                             <configuration>
+                                <ignoreNonCompile>true</ignoreNonCompile>
                                 <failOnWarning>true</failOnWarning>
                                 <outputXML>true</outputXML>
                             </configuration>
