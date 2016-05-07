@@ -8,6 +8,9 @@ public class OpencageComponent
 {
     private String city;
 
+    @JsonProperty("town")
+    private String town;
+
     private String country;
 
     @JsonProperty("country_code")
@@ -28,6 +31,16 @@ public class OpencageComponent
     public void setCity(String city)
     {
         this.city = city;
+    }
+
+    public String getTown()
+    {
+        return town;
+    }
+
+    public void setTown(String town)
+    {
+        this.town = town;
     }
 
     public String getCountry()
