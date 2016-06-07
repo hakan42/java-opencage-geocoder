@@ -37,7 +37,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
     private static final OpencageRate rate = new OpencageRate();
 
-    private static final DateTime reset = new DateTime().withMillis(0);
+    private static DateTime reset = new DateTime().withMillis(0);
 
     public GeocodeRepositoryImpl()
     {
@@ -125,7 +125,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                             rate.setRemaining(result.getRate().getRemaining());
                             rate.setReset(result.getRate().getReset());
 
-                            reset.withMillis((long) (result.getRate().getReset()) * 1000L);
+                            reset = new DateTime((long) (result.getRate().getReset()) * 1000L);
                         }
                     }
                     break;
