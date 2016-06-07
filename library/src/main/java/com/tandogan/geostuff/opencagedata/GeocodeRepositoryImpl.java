@@ -14,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
+import java.text.DecimalFormat;
 
 import static org.springframework.http.HttpStatus.OK;
 
@@ -145,13 +146,10 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     {
         LOGGER.debug("reverse geocoding {}, {}", latitude, longitude);
 
-        String query = "";
+        DecimalFormat df = new DecimalFormat("#");
+        df.setMaximumFractionDigits(8);
 
-        query = query + latitude;
-
-        query = query + "+";
-
-        query = query + longitude;
+        String query = df.format(latitude) + "+" + df.format(longitude);
 
         LOGGER.info("query is '{}'", query);
 
