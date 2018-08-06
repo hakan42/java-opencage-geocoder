@@ -1,6 +1,6 @@
 # OpenCage Geocoder
 
-A Java client client for the [OpenCage Data](http://www.opencagedata.com/)
+A Java client client for the [OpenCage Data](https://opencagedata.com)
 geocoder API.
 
 ## Release version
