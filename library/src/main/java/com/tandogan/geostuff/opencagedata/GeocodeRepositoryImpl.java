@@ -100,6 +100,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .queryParam(API_KEY, apiKey)
                 .queryParam(QUERY, query)
                 .build()
+                .encode()
                 .toUri();
 
         LOGGER.debug("REST template is {}", template);
