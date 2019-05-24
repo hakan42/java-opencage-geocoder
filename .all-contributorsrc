@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "freyfogle",
+      "name": "Ed Freyfogle",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/351074?v=4",
+      "profile": "https://freyfogle.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
