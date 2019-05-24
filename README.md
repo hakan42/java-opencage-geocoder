@@ -1,19 +1,19 @@
 # OpenCage Geocoder
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 A Java client client for the [OpenCage Data](https://opencagedata.com)
 geocoder API.
+
+## Status
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![Dependency Status](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d/badge.png)](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d)
+[![Build Status](https://travis-ci.org/hakan42/osm-tools.svg?branch=master)](https://travis-ci.org/hakan42/osm-tools)
+[![Code Coverage](https://codecov.io/github/hakan42/java-opencage-geocoder/coverage.svg?branch=master)](https://codecov.io/github/hakan42/java-opencage-geocoder?branch=master)
 
 ## Release version
 
 * Currently SNAPSHOT only, you will have to build yourself
 * Already (successfully) being used in a private project
 * Proper Release to Maven central will be performed after 15. September 2014, when I'm back from vacation
-
-## Status
-[![Dependency Status](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d/badge.png)](https://www.versioneye.com/user/projects/53ca4d1f34ee291b5400002d)
-[![Build Status](https://travis-ci.org/hakan42/osm-tools.svg?branch=master)](https://travis-ci.org/hakan42/osm-tools)
-[![Code Coverage](https://codecov.io/github/hakan42/java-opencage-geocoder/coverage.svg?branch=master)](https://codecov.io/github/hakan42/java-opencage-geocoder?branch=master)
 
 
 ## Usage
