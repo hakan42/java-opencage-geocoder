@@ -22,6 +22,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "pgtaboada",
+      "name": "Papick Garcia Taboada",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1474196?v=4",
+      "profile": "http://pgt.de",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
