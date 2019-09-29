@@ -6,7 +6,7 @@ geocoder API.
 ## Status
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/hakan42/java-opencage-geocoder.svg?branch=master)](https://travis-ci.org/hakan42/java-opencage-geocoder)
-[![Code Coverage](https://codecov.io/github/hakan42/java-opencage-geocoder/coverage.svg?branch=master)](https://codecov.io/github/hakan42/java-opencage-geocoder?branch=master)
+[![codecov](https://codecov.io/gh/hakan42/java-opencage-geocoder/branch/master/graph/badge.svg)](https://codecov.io/gh/hakan42/java-opencage-geocoder)
 
 ## Release version
 
