@@ -1,237 +1,354 @@
 {
-    "documentation": "https://geocoder.opencagedata.com/api",
-    "licenses": [
-        {
-            "name": "CC-BY-SA",
-            "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": 2497,
+    "reset": 1586822400
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "36° 22' 30.32400'' N",
+          "lng": "29° 36' 10.12824'' E"
         },
-        {
-            "name": "ODbL",
-            "url": "http://opendatacommons.org/licenses/odbl/summary/"
+        "MGRS": "35SQA3349328699",
+        "Maidenhead": "KM46tj20ia",
+        "Mercator": {
+          "x": 3295370.116,
+          "y": 4327014.116
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=1727265#map=17/36.37509/29.60281",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/36.37509/29.60281&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=36.37509&mlon=29.60281#map=17/36.37509/29.60281"
+        },
+        "UN_M49": {
+          "regions": {
+            "ASIA": "142",
+            "TR": "792",
+            "WESTERN_ASIA": "145",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "LEDC"
+          ]
+        },
+        "callingcode": 90,
+        "currency": {
+          "alternate_symbols": [
+            "TL"
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#8378;",
+          "iso_code": "TRY",
+          "iso_numeric": "949",
+          "name": "Turkish Lira",
+          "smallest_denomination": 1,
+          "subunit": "kuruş",
+          "subunit_to_unit": 100,
+          "symbol": "₺",
+          "symbol_first": 1,
+          "thousands_separator": "."
+        },
+        "flag": "🇹🇷",
+        "geohash": "swmnctuh781xc9srs9e2",
+        "qibla": 146.46,
+        "roadinfo": {
+          "drive_on": "right",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1586748720,
+            "astronomical": 1586743320,
+            "civil": 1586747100,
+            "nautical": 1586745240
+          },
+          "set": {
+            "apparent": 1586795580,
+            "astronomical": 1586800980,
+            "civil": 1586797140,
+            "nautical": 1586799060
+          }
+        },
+        "timezone": {
+          "name": "Europe/Istanbul",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": "+0300",
+          "short_name": "+03"
+        },
+        "what3words": {
+          "words": "permanency.wakeful.healthcare"
         }
-    ],
-    "rate": {
-        "limit": 2500,
-        "remaining": 2490,
-        "reset": 1457481600
-    },
-    "results": [
-        {
-            "annotations": {
-                "DMS": {
-                    "lat": "36\u00b0 11' 57.75072'' N",
-                    "lng": "29\u00b0 38' 28.81140'' E"
-                },
-                "MGRS": "35SQA3748209296",
-                "Maidenhead": "KM46te67xu",
-                "Mercator": {
-                    "x": 3299658.486,
-                    "y": 4302853.118
-                },
-                "OSM": {
-                    "edit_url": "https://www.openstreetmap.org/edit?node=3279111811#map=17/36.19938/29.64134",
-                    "url": "https://www.openstreetmap.org/?mlat=36.19938&mlon=29.64134#map=17/36.19938/29.64134"
-                },
-                "callingcode": 90,
-                "geohash": "swmjftbhthwknnnwefce",
-                "sun": {
-                    "rise": {
-                        "apparent": 1457410920,
-                        "astronomical": 1457405760,
-                        "civil": 1457409360,
-                        "nautical": 1457407560
-                    },
-                    "set": {
-                        "apparent": 1457453040,
-                        "astronomical": 1457458140,
-                        "civil": 1457454540,
-                        "nautical": 1457456340
-                    }
-                },
-                "timezone": {
-                    "name": "Europe/Istanbul",
-                    "now_in_dst": 0,
-                    "offset_sec": 7200,
-                    "offset_string": 200,
-                    "short_name": "EET"
-                },
-                "what3words": {
-                    "words": "pampered.windblown.cherishing"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 36.2393752,
-                    "lng": 29.6813365
-                },
-                "southwest": {
-                    "lat": 36.1593752,
-                    "lng": 29.6013365
-                }
-            },
-            "components": {
-                "country": "Turkey",
-                "country_code": "tr",
-                "county": "Ka\u015f",
-                "state": "Antalya",
-                "town": "Kas"
-            },
-            "confidence": 7,
-            "formatted": "Kas, Ka\u015f, Turkey",
-            "geometry": {
-                "lat": 36.1993752,
-                "lng": 29.6413365
-            }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 36.6191853,
+          "lng": 29.9195079
         },
-        {
-            "annotations": {
-                "DMS": {
-                    "lat": "36\u00b0 22' 30.32400'' N",
-                    "lng": "29\u00b0 36' 13.21124'' E"
-                },
-                "MGRS": "35SQA3357028701",
-                "Maidenhead": "KM46tj20ka",
-                "Mercator": {
-                    "x": 3295465.447,
-                    "y": 4327014.116
-                },
-                "OSM": {
-                    "edit_url": "https://www.openstreetmap.org/edit?relation=1727265#map=17/36.37509/29.60367",
-                    "url": "https://www.openstreetmap.org/?mlat=36.37509&mlon=29.60367#map=17/36.37509/29.60367"
-                },
-                "callingcode": 90,
-                "geohash": "swmnctusr80pg3xre982",
-                "sun": {
-                    "rise": {
-                        "apparent": 1457410920,
-                        "astronomical": 1457405760,
-                        "civil": 1457409360,
-                        "nautical": 1457407560
-                    },
-                    "set": {
-                        "apparent": 1457453040,
-                        "astronomical": 1457458140,
-                        "civil": 1457454540,
-                        "nautical": 1457456340
-                    }
-                },
-                "timezone": {
-                    "name": "Europe/Istanbul",
-                    "now_in_dst": 0,
-                    "offset_sec": 7200,
-                    "offset_string": 200,
-                    "short_name": "EET"
-                },
-                "what3words": {
-                    "words": "bursting.crimping.sidelines"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 36.6191853,
-                    "lng": 29.9195079
-                },
-                "southwest": {
-                    "lat": 36.1309438,
-                    "lng": 29.2620365
-                }
-            },
-            "components": {
-                "country": "Turkey",
-                "country_code": "tr",
-                "county": "Ka\u015f",
-                "state": "Antalya"
-            },
-            "confidence": 1,
-            "formatted": "Ka\u015f, Turkey",
-            "geometry": {
-                "lat": 36.37509,
-                "lng": 29.6036697892474
-            }
-        },
-        {
-            "annotations": {
-                "DMS": {
-                    "lat": "36\u00b0 12' 2.07828'' N",
-                    "lng": "29\u00b0 39' 0.00144'' E"
-                },
-                "MGRS": "35SQA3825709451",
-                "Maidenhead": "KM46te88ad",
-                "Mercator": {
-                    "x": 3300622.947,
-                    "y": 4303018.222
-                },
-                "OSM": {
-                    "edit_url": "https://www.openstreetmap.org/edit?node=2071263545#map=17/36.20058/29.65000",
-                    "url": "https://www.openstreetmap.org/?mlat=36.20058&mlon=29.65000#map=17/36.20058/29.65000"
-                },
-                "callingcode": 90,
-                "geohash": "swmjfwn7xhdwyzvpxpv9",
-                "sun": {
-                    "rise": {
-                        "apparent": 1457410920,
-                        "astronomical": 1457405760,
-                        "civil": 1457409360,
-                        "nautical": 1457407560
-                    },
-                    "set": {
-                        "apparent": 1457453040,
-                        "astronomical": 1457458140,
-                        "civil": 1457454540,
-                        "nautical": 1457456340
-                    }
-                },
-                "timezone": {
-                    "name": "Europe/Istanbul",
-                    "now_in_dst": 0,
-                    "offset_sec": 7200,
-                    "offset_string": 200,
-                    "short_name": "EET"
-                },
-                "what3words": {
-                    "words": "freezing.pitied.felicitous"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 36.2006273,
-                    "lng": 29.6500504
-                },
-                "southwest": {
-                    "lat": 36.2005273,
-                    "lng": 29.6499504
-                }
-            },
-            "components": {
-                "address29": "Ka\u015f",
-                "country": "Turkey",
-                "country_code": "tr",
-                "county": "Ka\u015f",
-                "road": "D400",
-                "state": "Antalya",
-                "suburb": "\u00c7ukurba\u011f Yar\u0131madas\u0131",
-                "town": "Kas"
-            },
-            "confidence": 10,
-            "formatted": "Ka\u015f, D400, Kas, Turkey",
-            "geometry": {
-                "lat": 36.2005773,
-                "lng": 29.6500004
-            }
+        "southwest": {
+          "lat": 36.1309698,
+          "lng": 29.2620365
         }
-    ],
-    "status": {
-        "code": 200,
-        "message": "OK"
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "TR",
+        "ISO_3166-1_alpha-3": "TUR",
+        "_category": "place",
+        "_type": "county",
+        "continent": "Asia",
+        "country": "Turkey",
+        "country_code": "tr",
+        "county": "Kaş",
+        "state": "Mediterranean Region"
+      },
+      "confidence": 1,
+      "formatted": "Kaş, Turkey",
+      "geometry": {
+        "lat": 36.37509,
+        "lng": 29.6028134
+      }
     },
-    "stay_informed": {
-        "blog": "http://blog.opencagedata.com",
-        "twitter": "https://twitter.com/opencagedata"
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "36° 11' 57.75072'' N",
+          "lng": "29° 38' 28.81140'' E"
+        },
+        "MGRS": "35SQA3748209296",
+        "Maidenhead": "KM46te67xu",
+        "Mercator": {
+          "x": 3299658.486,
+          "y": 4302853.118
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=3279111811#map=17/36.19938/29.64134",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/36.19938/29.64134&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=36.19938&mlon=29.64134#map=17/36.19938/29.64134"
+        },
+        "UN_M49": {
+          "regions": {
+            "ASIA": "142",
+            "TR": "792",
+            "WESTERN_ASIA": "145",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "LEDC"
+          ]
+        },
+        "callingcode": 90,
+        "currency": {
+          "alternate_symbols": [
+            "TL"
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#8378;",
+          "iso_code": "TRY",
+          "iso_numeric": "949",
+          "name": "Turkish Lira",
+          "smallest_denomination": 1,
+          "subunit": "kuruş",
+          "subunit_to_unit": 100,
+          "symbol": "₺",
+          "symbol_first": 1,
+          "thousands_separator": "."
+        },
+        "flag": "🇹🇷",
+        "geohash": "swmjftbhthwknnnwefce",
+        "qibla": 146.25,
+        "roadinfo": {
+          "drive_on": "right",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1586748720,
+            "astronomical": 1586743320,
+            "civil": 1586747100,
+            "nautical": 1586745240
+          },
+          "set": {
+            "apparent": 1586795580,
+            "astronomical": 1586800980,
+            "civil": 1586797140,
+            "nautical": 1586799000
+          }
+        },
+        "timezone": {
+          "name": "Europe/Istanbul",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": "+0300",
+          "short_name": "+03"
+        },
+        "what3words": {
+          "words": "pampered.windblown.cherishing"
+        },
+        "wikidata": "Q1004438"
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 36.2393752,
+          "lng": 29.6813365
+        },
+        "southwest": {
+          "lat": 36.1593752,
+          "lng": 29.6013365
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "TR",
+        "ISO_3166-1_alpha-3": "TUR",
+        "_category": "place",
+        "_type": "city",
+        "continent": "Asia",
+        "country": "Turkey",
+        "country_code": "tr",
+        "county": "Kaş",
+        "postcode": "08750",
+        "state": "Mediterranean Region",
+        "town": "Kaş"
+      },
+      "confidence": 7,
+      "formatted": "08750 Kaş, Turkey",
+      "geometry": {
+        "lat": 36.1993752,
+        "lng": 29.6413365
+      }
     },
-    "thanks": "For using an OpenCage Data API",
-    "timestamp": {
-        "created_http": "Tue, 08 Mar 2016 19:36:31 GMT",
-        "created_unix": 1457465791
-    },
-    "total_results": 3
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "36° 12' 2.07828'' N",
+          "lng": "29° 39' 0.00144'' E"
+        },
+        "MGRS": "35SQA3825709451",
+        "Maidenhead": "KM46te88ad",
+        "Mercator": {
+          "x": 3300622.947,
+          "y": 4303018.222
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=2071263545#map=17/36.20058/29.65000",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/36.20058/29.65000&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=36.20058&mlon=29.65000#map=17/36.20058/29.65000"
+        },
+        "UN_M49": {
+          "regions": {
+            "ASIA": "142",
+            "TR": "792",
+            "WESTERN_ASIA": "145",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "LEDC"
+          ]
+        },
+        "callingcode": 90,
+        "currency": {
+          "alternate_symbols": [
+            "TL"
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#8378;",
+          "iso_code": "TRY",
+          "iso_numeric": "949",
+          "name": "Turkish Lira",
+          "smallest_denomination": 1,
+          "subunit": "kuruş",
+          "subunit_to_unit": 100,
+          "symbol": "₺",
+          "symbol_first": 1,
+          "thousands_separator": "."
+        },
+        "flag": "🇹🇷",
+        "geohash": "swmjfwn7xhdwyzvpxpv9",
+        "qibla": 146.28,
+        "roadinfo": {
+          "drive_on": "right",
+          "road": "Demre - Kaş Yolu",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1586748720,
+            "astronomical": 1586743320,
+            "civil": 1586747100,
+            "nautical": 1586745240
+          },
+          "set": {
+            "apparent": 1586795580,
+            "astronomical": 1586800980,
+            "civil": 1586797140,
+            "nautical": 1586799000
+          }
+        },
+        "timezone": {
+          "name": "Europe/Istanbul",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": "+0300",
+          "short_name": "+03"
+        },
+        "what3words": {
+          "words": "freezing.pitied.felicitous"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 36.2006273,
+          "lng": 29.6500504
+        },
+        "southwest": {
+          "lat": 36.2005273,
+          "lng": 29.6499504
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "TR",
+        "ISO_3166-1_alpha-3": "TUR",
+        "_category": "road",
+        "_type": "road",
+        "continent": "Asia",
+        "country": "Turkey",
+        "country_code": "tr",
+        "county": "Kaş",
+        "postcode": "08750",
+        "road": "Demre - Kaş Yolu",
+        "state": "Mediterranean Region",
+        "suburb": "Çukurbağ Yarımadası",
+        "town": "Kaş",
+        "unknown": "Kaş"
+      },
+      "confidence": 9,
+      "formatted": "Kaş, Demre - Kaş Yolu, 08750 Kaş, Turkey",
+      "geometry": {
+        "lat": 36.2005773,
+        "lng": 29.6500004
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "twitter": "https://twitter.com/opencagedata"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Mon, 13 Apr 2020 19:32:27 GMT",
+    "created_unix": 1586806347
+  },
+  "total_results": 3
 }

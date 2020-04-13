@@ -61,7 +61,7 @@ public class JsonDeserializationTest
         assertNotNull(result);
         assertNotEquals(0, result.getConfidence());
         assertEquals("Kaş", result.getComponents().getCounty());
-        assertEquals(36.200, result.getGeometry().getLatitude(), LATLON_DELTA);
+        assertEquals(36.375, result.getGeometry().getLatitude(), LATLON_DELTA);
         assertEquals(29.603, result.getGeometry().getLongitude(), LATLON_DELTA);
     }
 
@@ -80,8 +80,8 @@ public class JsonDeserializationTest
 
         // Bad input data, should have been City
         assertEquals("Serik", result.getComponents().getCounty());
-        assertEquals(36.916, result.getGeometry().getLatitude(), LATLON_DELTA);
-        assertEquals(31.101, result.getGeometry().getLongitude(), LATLON_DELTA);
+        assertEquals(37.102, result.getGeometry().getLatitude(), LATLON_DELTA);
+        assertEquals(30.998, result.getGeometry().getLongitude(), LATLON_DELTA);
     }
 
     @Test

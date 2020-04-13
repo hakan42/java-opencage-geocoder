@@ -1,172 +1,249 @@
 {
-    "documentation": "https://geocoder.opencagedata.com/api",
-    "licenses": [
-        {
-            "name": "CC-BY-SA",
-            "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": 2498,
+    "reset": 1586822400
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "48° 8' 2.41260'' N",
+          "lng": "11° 21' 56.63016'' E"
         },
-        {
-            "name": "ODbL",
-            "url": "http://opendatacommons.org/licenses/odbl/summary/"
-        }
-    ],
-    "rate": {
-        "limit": 2500,
-        "remaining": 2491,
-        "reset": 1457481600
-    },
-    "results": [
-        {
-            "annotations": {
-                "DMS": {
-                    "lat": "48\u00b0 8' 2.41260'' N",
-                    "lng": "11\u00b0 21' 56.63016'' E"
-                },
-                "MGRS": "32UPU7600933901",
-                "Maidenhead": "JN58qd32vd",
-                "Mercator": {
-                    "x": 1265227.343,
-                    "y": 6097340.54
-                },
-                "OSM": {
-                    "edit_url": "https://www.openstreetmap.org/edit?relation=933480#map=17/48.13400/11.36573",
-                    "url": "https://www.openstreetmap.org/?mlat=48.13400&mlon=11.36573#map=17/48.13400/11.36573"
-                },
-                "callingcode": 49,
-                "geohash": "u281fds2bswgpdtdwcuh",
-                "sun": {
-                    "rise": {
-                        "apparent": 1457415600,
-                        "astronomical": 1457409420,
-                        "civil": 1457413800,
-                        "nautical": 1457411640
-                    },
-                    "set": {
-                        "apparent": 1457457060,
-                        "astronomical": 1457463300,
-                        "civil": 1457458920,
-                        "nautical": 1457461080
-                    }
-                },
-                "timezone": {
-                    "name": "Europe/Berlin",
-                    "now_in_dst": 0,
-                    "offset_sec": 3600,
-                    "offset_string": 100,
-                    "short_name": "CET"
-                },
-                "what3words": {
-                    "words": "tapes.bronzer.timidly"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 48.1587694,
-                    "lng": 11.4127946
-                },
-                "southwest": {
-                    "lat": 48.1057036,
-                    "lng": 11.3059679
-                }
-            },
-            "components": {
-                "city": "Germering",
-                "country": "Germany",
-                "country_code": "de",
-                "county": "Landkreis F\u00fcrstenfeldbruck",
-                "state": "Free State of Bavaria",
-                "state_district": "Upper Bavaria"
-            },
-            "confidence": 7,
-            "formatted": "Germering, F\u00fcrstenfeldbruck, Germany",
-            "geometry": {
-                "lat": 48.1340035,
-                "lng": 11.3657306
-            }
+        "MGRS": "32UPU7600933901",
+        "Maidenhead": "JN58qd32vd",
+        "Mercator": {
+          "x": 1265227.343,
+          "y": 6097340.54
         },
-        {
-            "annotations": {
-                "DMS": {
-                    "lat": "47\u00b0 54' 24.04404'' N",
-                    "lng": "12\u00b0 7' 6.81708'' E"
-                },
-                "MGRS": "33TTP8467909947",
-                "Maidenhead": "JN67bv47fo",
-                "Mercator": {
-                    "x": 1349031.962,
-                    "y": 6059620.551
-                },
-                "OSM": {
-                    "edit_url": "https://www.openstreetmap.org/edit?node=247899017#map=17/47.90668/12.11856",
-                    "url": "https://www.openstreetmap.org/?mlat=47.90668&mlon=12.11856#map=17/47.90668/12.11856"
-                },
-                "callingcode": 49,
-                "geohash": "u288ec0kwujx008w18jn",
-                "sun": {
-                    "rise": {
-                        "apparent": 1457415420,
-                        "astronomical": 1457409240,
-                        "civil": 1457413620,
-                        "nautical": 1457411460
-                    },
-                    "set": {
-                        "apparent": 1457456880,
-                        "astronomical": 1457463060,
-                        "civil": 1457458740,
-                        "nautical": 1457460900
-                    }
-                },
-                "timezone": {
-                    "name": "Europe/Berlin",
-                    "now_in_dst": 0,
-                    "offset_sec": 3600,
-                    "offset_string": 100,
-                    "short_name": "CET"
-                },
-                "what3words": {
-                    "words": "scarfs.slope.meteors"
-                }
-            },
-            "bounds": {
-                "northeast": {
-                    "lat": 47.9067289,
-                    "lng": 12.1186103
-                },
-                "southwest": {
-                    "lat": 47.9066289,
-                    "lng": 12.1185103
-                }
-            },
-            "components": {
-                "bus_stop": "Germering",
-                "country": "Germany",
-                "country_code": "de",
-                "county": "Landkreis Rosenheim",
-                "postcode": "83135",
-                "state": "Free State of Bavaria",
-                "state_district": "Upper Bavaria",
-                "village": "Schechen"
-            },
-            "confidence": 10,
-            "formatted": "Germering, 83135 Schechen, Germany",
-            "geometry": {
-                "lat": 47.9066789,
-                "lng": 12.1185603
-            }
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=933480#map=17/48.13400/11.36573",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/48.13400/11.36573&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=48.13400&mlon=11.36573#map=17/48.13400/11.36573"
+        },
+        "UN_M49": {
+          "regions": {
+            "DE": "276",
+            "EUROPE": "150",
+            "WESTERN_EUROPE": "155",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 49,
+        "currency": {
+          "alternate_symbols": [],
+          "decimal_mark": ",",
+          "html_entity": "&#x20AC;",
+          "iso_code": "EUR",
+          "iso_numeric": "978",
+          "name": "Euro",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "€",
+          "symbol_first": 1,
+          "thousands_separator": "."
+        },
+        "flag": "🇩🇪",
+        "geohash": "u281fds2bswgpdtdwcuh",
+        "qibla": 129.5,
+        "roadinfo": {
+          "drive_on": "right",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1586752140,
+            "astronomical": 1586745300,
+            "civil": 1586750220,
+            "nautical": 1586747820
+          },
+          "set": {
+            "apparent": 1586800920,
+            "astronomical": 1586807820,
+            "civil": 1586802840,
+            "nautical": 1586805240
+          }
+        },
+        "timezone": {
+          "name": "Europe/Berlin",
+          "now_in_dst": 1,
+          "offset_sec": 7200,
+          "offset_string": "+0200",
+          "short_name": "CEST"
+        },
+        "what3words": {
+          "words": "tapes.bronzer.timidly"
+        },
+        "wikidata": "Q14898"
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 48.1586746,
+          "lng": 11.4128816
+        },
+        "southwest": {
+          "lat": 48.1057036,
+          "lng": 11.3059679
         }
-    ],
-    "status": {
-        "code": 200,
-        "message": "OK"
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "DE",
+        "ISO_3166-1_alpha-3": "DEU",
+        "_category": "place",
+        "_type": "city",
+        "city": "Germering",
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "de",
+        "county": "Landkreis Fürstenfeldbruck",
+        "political_union": "European Union",
+        "postcode": "82110",
+        "state": "Bavaria"
+      },
+      "confidence": 7,
+      "formatted": "Germering, Bavaria, Germany",
+      "geometry": {
+        "lat": 48.1340035,
+        "lng": 11.3657306
+      }
     },
-    "stay_informed": {
-        "blog": "http://blog.opencagedata.com",
-        "twitter": "https://twitter.com/opencagedata"
-    },
-    "thanks": "For using an OpenCage Data API",
-    "timestamp": {
-        "created_http": "Tue, 08 Mar 2016 19:36:31 GMT",
-        "created_unix": 1457465791
-    },
-    "total_results": 2
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "47° 54' 24.07572'' N",
+          "lng": "12° 7' 7.00284'' E"
+        },
+        "MGRS": "33TTP8468309948",
+        "Maidenhead": "JN67bv47fo",
+        "Mercator": {
+          "x": 1349037.706,
+          "y": 6059622.008
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=5644138459#map=17/47.90669/12.11861",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/47.90669/12.11861&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=47.90669&mlon=12.11861#map=17/47.90669/12.11861"
+        },
+        "UN_M49": {
+          "regions": {
+            "DE": "276",
+            "EUROPE": "150",
+            "WESTERN_EUROPE": "155",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 49,
+        "currency": {
+          "alternate_symbols": [],
+          "decimal_mark": ",",
+          "html_entity": "&#x20AC;",
+          "iso_code": "EUR",
+          "iso_numeric": "978",
+          "name": "Euro",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "€",
+          "symbol_first": 1,
+          "thousands_separator": "."
+        },
+        "flag": "🇩🇪",
+        "geohash": "u288ec0s8jggx0rxyvpd",
+        "qibla": 130.27,
+        "roadinfo": {
+          "drive_on": "right",
+          "road": "Germeringer Straße",
+          "road_type": "bus_stop",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1586752020,
+            "astronomical": 1586745180,
+            "civil": 1586750040,
+            "nautical": 1586747700
+          },
+          "set": {
+            "apparent": 1586800680,
+            "astronomical": 1586807580,
+            "civil": 1586802660,
+            "nautical": 1586805000
+          }
+        },
+        "timezone": {
+          "name": "Europe/Berlin",
+          "now_in_dst": 1,
+          "offset_sec": 7200,
+          "offset_string": "+0200",
+          "short_name": "CEST"
+        },
+        "what3words": {
+          "words": "dwellings.frescos.applauds"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 47.9067377,
+          "lng": 12.1186619
+        },
+        "southwest": {
+          "lat": 47.9066377,
+          "lng": 12.1185619
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "DE",
+        "ISO_3166-1_alpha-3": "DEU",
+        "_category": "transportation",
+        "_type": "bus_stop",
+        "bus_stop": "Germering",
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "de",
+        "county": "Landkreis Rosenheim",
+        "hamlet": "Wieden",
+        "political_union": "European Union",
+        "postcode": "83135",
+        "road": "Germeringer Straße",
+        "road_type": "bus_stop",
+        "state": "Bavaria",
+        "village": "Schechen"
+      },
+      "confidence": 9,
+      "formatted": "Germering, Germeringer Straße, 83135 Schechen, Germany",
+      "geometry": {
+        "lat": 47.9066877,
+        "lng": 12.1186119
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "twitter": "https://twitter.com/opencagedata"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Mon, 13 Apr 2020 19:32:27 GMT",
+    "created_unix": 1586806347
+  },
+  "total_results": 2
 }
