@@ -2,8 +2,12 @@ package com.tandogan.geostuff.opencagedata.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Getter
+@Setter
 public class OpencageResult
 {
     @JsonProperty("confidence")
@@ -17,44 +21,4 @@ public class OpencageResult
 
     @JsonProperty("geometry")
     private OpencageGeometry geometry;
-
-    public int getConfidence()
-    {
-        return confidence;
-    }
-
-    public void setConfidence(int confidence)
-    {
-        this.confidence = confidence;
-    }
-
-    public String getFormatted()
-    {
-        return formatted;
-    }
-
-    public void setFormatted(String formatted)
-    {
-        this.formatted = formatted;
-    }
-
-    public OpencageComponent getComponents()
-    {
-        return components;
-    }
-
-    public void setComponents(OpencageComponent components)
-    {
-        this.components = components;
-    }
-
-    public OpencageGeometry getGeometry()
-    {
-        return geometry;
-    }
-
-    public void setGeometry(OpencageGeometry geometry)
-    {
-        this.geometry = geometry;
-    }
 }

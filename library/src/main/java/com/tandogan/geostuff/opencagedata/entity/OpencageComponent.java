@@ -2,8 +2,12 @@ package com.tandogan.geostuff.opencagedata.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Getter
+@Setter
 public class OpencageComponent
 {
     private String city;
@@ -25,84 +29,4 @@ public class OpencageComponent
 
     @JsonProperty("state_district")
     private String stateDistrict;
-
-    public String getCity()
-    {
-        return city;
-    }
-
-    public void setCity(String city)
-    {
-        this.city = city;
-    }
-
-    public String getTown()
-    {
-        return town;
-    }
-
-    public void setTown(String town)
-    {
-        this.town = town;
-    }
-
-    public String getPostcode()
-    {
-        return postcode;
-    }
-
-    public void setPostcode(String postcode)
-    {
-        this.postcode = postcode;
-    }
-
-    public String getCountry()
-    {
-        return country;
-    }
-
-    public void setCountry(String country)
-    {
-        this.country = country;
-    }
-
-    public String getCountryCode()
-    {
-        return countryCode;
-    }
-
-    public void setCountryCode(String countryCode)
-    {
-        this.countryCode = countryCode;
-    }
-
-    public String getCounty()
-    {
-        return county;
-    }
-
-    public void setCounty(String county)
-    {
-        this.county = county;
-    }
-
-    public String getState()
-    {
-        return state;
-    }
-
-    public void setState(String state)
-    {
-        this.state = state;
-    }
-
-    public String getStateDistrict()
-    {
-        return stateDistrict;
-    }
-
-    public void setStateDistrict(String stateDistrict)
-    {
-        this.stateDistrict = stateDistrict;
-    }
 }

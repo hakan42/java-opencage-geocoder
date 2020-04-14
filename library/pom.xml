@@ -40,6 +40,12 @@
             <artifactId>spring-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Time handling -->
         <dependency>
             <groupId>joda-time</groupId>

@@ -2,8 +2,12 @@ package com.tandogan.geostuff.opencagedata.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Getter
+@Setter
 public class OpencageStatus
 {
     @JsonProperty("code")
@@ -11,24 +15,4 @@ public class OpencageStatus
 
     @JsonProperty("message")
     private String message;
-
-    public String getCode()
-    {
-        return code;
-    }
-
-    public void setCode(String code)
-    {
-        this.code = code;
-    }
-
-    public String getMessage()
-    {
-        return message;
-    }
-
-    public void setMessage(String message)
-    {
-        this.message = message;
-    }
 }

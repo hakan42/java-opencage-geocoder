@@ -2,6 +2,8 @@ package com.tandogan.geostuff.opencagedata;
 
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
 import com.tandogan.geostuff.opencagedata.entity.OpencageRate;
+import lombok.Getter;
+import lombok.Setter;
 import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,16 +30,23 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     private static final String QUERY = "q";
 
     @Value("${API_KEY}")
+    @Getter
+    @Setter
     private String apiKey;
 
     @Value("${URL_BASE}")
+    @Getter
+    @Setter
     private String urlBase;
 
+    @Getter
+    @Setter
     private RestOperations template;
 
     private static final OpencageRate rate = new OpencageRate();
 
-    private static DateTime reset = new DateTime().withMillis(0);
+    @Getter
+    private DateTime reset = new DateTime().withMillis(0);
 
     public GeocodeRepositoryImpl()
     {
@@ -45,36 +54,6 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     }
 
     public GeocodeRepositoryImpl(RestOperations template)
-    {
-        this.template = template;
-    }
-
-    public String getApiKey()
-    {
-        return apiKey;
-    }
-
-    public void setApiKey(String apiKey)
-    {
-        this.apiKey = apiKey;
-    }
-
-    public String getUrlBase()
-    {
-        return urlBase;
-    }
-
-    public void setUrlBase(String urlBase)
-    {
-        this.urlBase = urlBase;
-    }
-
-    public RestOperations getTemplate()
-    {
-        return template;
-    }
-
-    public void setTemplate(RestOperations template)
     {
         this.template = template;
     }
@@ -87,11 +66,6 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     public int getRemaining()
     {
         return rate.getRemaining();
-    }
-
-    public DateTime getReset()
-    {
-        return reset;
     }
 
     public GeocodeResponse query(String query)
