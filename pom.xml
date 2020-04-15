@@ -58,7 +58,6 @@
         <commons-digester.version>3.2</commons-digester.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-lang.version>3.3.2</commons-lang.version>
-        <joda-time.version>2.9.2</joda-time.version>
 
         <slf4j.version>1.7.26</slf4j.version>
         <logback.version>1.1.6</logback.version>
@@ -235,11 +234,6 @@
             </dependency>
 
             <!-- Communicate with the database... -->
-            <dependency>
-                <groupId>joda-time</groupId>
-                <artifactId>joda-time</artifactId>
-                <version>${joda-time.version}</version>
-            </dependency>
 
             <!-- Testing -->
             <dependency>

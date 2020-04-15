@@ -46,12 +46,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Time handling -->
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-        </dependency>
-
         <!-- JSON parsing -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

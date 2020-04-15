@@ -4,11 +4,9 @@ import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
 import com.tandogan.geostuff.opencagedata.entity.OpencageRate;
 import lombok.Getter;
 import lombok.Setter;
-import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestOperations;
@@ -17,8 +15,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
 import java.text.DecimalFormat;
-
-import static org.springframework.http.HttpStatus.OK;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 
 @Repository
 public class GeocodeRepositoryImpl implements GeocodeRepository
@@ -46,7 +44,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
     private static final OpencageRate rate = new OpencageRate();
 
     @Getter
-    private DateTime reset = new DateTime().withMillis(0);
+    private LocalDateTime reset = LocalDateTime.ofEpochSecond(0, 0, ZoneOffset.UTC);
 
     public GeocodeRepositoryImpl()
     {
@@ -100,7 +98,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                             rate.setRemaining(result.getRate().getRemaining());
                             rate.setReset(result.getRate().getReset());
 
-                            reset = new DateTime((long) (result.getRate().getReset()) * 1000L);
+                            reset = LocalDateTime.ofEpochSecond((long) (result.getRate().getReset()), 0, ZoneOffset.UTC);
                         }
                     }
                     break;
@@ -112,7 +110,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
         }
 
         LOGGER.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
-        LOGGER.debug("  limit will be reset at {}, now it is {}", reset, DateTime.now());
+        LOGGER.debug("  limit will be reset at {}, now it is {}", reset, LocalDateTime.now());
 
         return result;
     }

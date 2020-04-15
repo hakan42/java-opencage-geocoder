@@ -1,7 +1,8 @@
 package com.tandogan.geostuff.opencagedata;
 
 import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
-import org.joda.time.DateTime;
+
+import java.time.LocalDateTime;
 
 public interface GeocodeRepository
 {
@@ -10,7 +11,7 @@ public interface GeocodeRepository
 
     int getRemaining();
 
-    DateTime getReset();
+    LocalDateTime getReset();
 
     GeocodeResponse query(String query);
 
