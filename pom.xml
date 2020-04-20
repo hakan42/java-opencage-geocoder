@@ -324,14 +324,13 @@
                     </configuration>
                     <executions>
                         <execution>
-                            <id>analyze</id>
+                            <id>dependency-list</id>
+                            <phase>initialize</phase>
                             <goals>
-                                <goal>analyze-only</goal>
+                                <goal>list</goal>
                             </goals>
                             <configuration>
-                                <ignoreNonCompile>true</ignoreNonCompile>
-                                <failOnWarning>true</failOnWarning>
-                                <outputXML>true</outputXML>
+                                <outputFile>${project.build.directory}/dependencies-list.txt</outputFile>
                             </configuration>
                         </execution>
                         <execution>
@@ -340,6 +339,20 @@
                             <goals>
                                 <goal>tree</goal>
                             </goals>
+                            <configuration>
+                                <outputFile>${project.build.directory}/dependencies-tree.txt</outputFile>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>analyze-only</id>
+                            <goals>
+                                <goal>analyze-only</goal>
+                            </goals>
+                            <configuration>
+                                <ignoreNonCompile>true</ignoreNonCompile>
+                                <failOnWarning>true</failOnWarning>
+                                <outputXML>true</outputXML>
+                            </configuration>
                         </execution>
                     </executions>
                 </plugin>
