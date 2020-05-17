@@ -4,9 +4,11 @@ A Java client client for the [OpenCage Data](https://opencagedata.com)
 geocoder API.
 
 ## Status
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/hakan42/java-opencage-geocoder.svg?branch=master)](https://travis-ci.org/hakan42/java-opencage-geocoder)
 [![codecov](https://codecov.io/gh/hakan42/java-opencage-geocoder/branch/master/graph/badge.svg)](https://codecov.io/gh/hakan42/java-opencage-geocoder)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Release version
 
@@ -20,9 +22,6 @@ geocoder API.
 
 ## Github Page
 * https://hakan42.github.io/java-opencage-geocoder/
-
-## Maven site(s)
-* [SNAPSHOT](http://hakan42.github.io/java-opencage-geocoder/site/0.1.0-SNAPSHOT/)
 
 ## Contributors
 
@@ -46,3 +45,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Maven site(s)
+* [SNAPSHOT](http://hakan42.github.io/java-opencage-geocoder/site/0.1.0-SNAPSHOT/)
