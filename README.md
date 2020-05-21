@@ -7,6 +7,8 @@ geocoder API.
 [![Build Status](https://travis-ci.org/hakan42/java-opencage-geocoder.svg?branch=master)](https://travis-ci.org/hakan42/java-opencage-geocoder)
 [![codecov](https://codecov.io/gh/hakan42/java-opencage-geocoder/branch/master/graph/badge.svg)](https://codecov.io/gh/hakan42/java-opencage-geocoder)
 [![Known Vulnerabilities](https://snyk.io/test/github/hakan42/java-opencage-geocoder/badge.svg?targetFile=library/pom.xml)](https://snyk.io/test/github/hakan42/java-opencage-geocoder?targetFile=library/pom.xml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hakan42_java-opencage-geocoder&metric=alert_status)](https://sonarcloud.io/dashboard?id=hakan42_java-opencage-geocoder)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
