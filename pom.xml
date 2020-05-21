@@ -85,7 +85,7 @@
 
     <ciManagement>
         <system>Jenkins</system>
-        <url>https://tandogan.ci.cloudbees.com/job/${project_fixed_name}/</url>
+        <url>https://travis-ci.org/github/hakan42/${project_fixed_name}/</url>
     </ciManagement>
 
     <distributionManagement>
