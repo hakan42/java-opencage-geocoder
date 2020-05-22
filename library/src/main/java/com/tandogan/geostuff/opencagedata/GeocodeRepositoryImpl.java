@@ -4,8 +4,7 @@ import com.tandogan.geostuff.opencagedata.entity.GeocodeResponse;
 import com.tandogan.geostuff.opencagedata.entity.OpencageRate;
 import lombok.Getter;
 import lombok.Setter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
@@ -19,10 +18,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
 @Repository
+@Slf4j
 public class GeocodeRepositoryImpl implements GeocodeRepository
 {
-    private final static Logger LOGGER = LoggerFactory.getLogger(GeocodeRepositoryImpl.class);
-
     private static final String API_KEY = "key";
 
     private static final String QUERY = "q";
@@ -75,9 +73,9 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .encode()
                 .toUri();
 
-        LOGGER.debug("REST template is {}", template);
+        log.debug("REST template is {}", template);
 
-        LOGGER.debug("geocoding query: {}", serviceUrl.toString());
+        log.debug("geocoding query: {}", serviceUrl);
 
         GeocodeResponse result = new GeocodeResponse();
         ResponseEntity<GeocodeResponse> response = template.getForEntity(serviceUrl, GeocodeResponse.class);
@@ -109,22 +107,22 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
         }
 
-        LOGGER.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
-        LOGGER.debug("  limit will be reset at {}, now it is {}", reset, LocalDateTime.now());
+        log.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
+        log.debug("  limit will be reset at {}, now it is {}", reset, LocalDateTime.now());
 
         return result;
     }
 
     public GeocodeResponse reverse(double latitude, double longitude)
     {
-        LOGGER.debug("reverse geocoding {}, {}", latitude, longitude);
+        log.debug("reverse geocoding {}, {}", latitude, longitude);
 
         DecimalFormat df = new DecimalFormat("#");
         df.setMaximumFractionDigits(8);
 
         String query = df.format(latitude) + "+" + df.format(longitude);
 
-        LOGGER.info("query is '{}'", query);
+        log.info("query is '{}'", query);
 
         return query(query);
     }
