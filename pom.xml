@@ -97,12 +97,6 @@
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
-        <!--
-        <repository>
-            <id>bintray</id>
-            <url>https://api.bintray.com/maven/${project_owner}/${project_fixed_name}/package</url>
-        </repository>
-        -->
         <site>
             <id>github-pages-site</id>
             <name>Deployment through GitHub's site deployment plugin</name>
