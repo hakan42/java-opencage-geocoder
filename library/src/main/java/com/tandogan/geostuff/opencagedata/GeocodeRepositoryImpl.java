@@ -25,7 +25,7 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
 
     private static final String QUERY = "q";
 
-    @Value("${API_KEY}")
+    @Value("${API_KEY:}")
     @Getter
     @Setter
     private String apiKey;
