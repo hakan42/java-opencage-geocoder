@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -73,15 +74,14 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                 .encode()
                 .toUri();
 
-        log.debug("REST template is {}", template);
-
         log.debug("geocoding query: {}", serviceUrl);
 
         GeocodeResponse result = new GeocodeResponse();
-        ResponseEntity<GeocodeResponse> response = template.getForEntity(serviceUrl, GeocodeResponse.class);
 
-        if (response != null)
+        try
         {
+            ResponseEntity<GeocodeResponse> response = template.getForEntity(serviceUrl, GeocodeResponse.class);
+
             switch (response.getStatusCode())
             {
                 // TODO proper handling of quota excessions
@@ -105,10 +105,13 @@ public class GeocodeRepositoryImpl implements GeocodeRepository
                     break;
             }
 
+            log.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
+            log.debug("  limit will be reset at {}, now it is {}", reset, LocalDateTime.now());
         }
-
-        log.debug("  {} of {} queries remaining", rate.getRemaining(), rate.getLimit());
-        log.debug("  limit will be reset at {}, now it is {}", reset, LocalDateTime.now());
+        catch (RestClientException restClientException)
+        {
+            log.error("While calling API", restClientException);
+        }
 
         return result;
     }
