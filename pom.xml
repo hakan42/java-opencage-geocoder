@@ -64,7 +64,7 @@
 
         <!-- Testing -->
         <jacoco-plugin.version>0.8.4</jacoco-plugin.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>2.28.2</mockito.version>
         <springockito.version>1.0.9</springockito.version>
 
